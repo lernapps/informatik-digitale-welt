@@ -77,8 +77,9 @@ Zwei freie Lizenzen und was du dann tun musst:
 
 **Merke: In der Klasse oder im Internet?**
 
-**In der Klasse und zum Zeigen in deiner Schule** darfst du für den Unterricht ein fremdes Bild nutzen,
-mit Quellenangabe. Das erlaubt ein Gesetz, das Urheberrechtsgesetz.
+**In der Klasse und zum Zeigen in deiner Schule** darfst du für den Unterricht ein fremdes Bild nutzen.
+Das erlaubt ein Gesetz, das Urheberrechtsgesetz. Gib immer die Quelle an, so weiß jeder, von wem das
+Bild ist.
 
 **Im Internet**, auch auf der Schulhomepage, brauchst du eine Erlaubnis oder eine freie Lizenz. Bist du
 nicht sicher, frag deine Lehrerin oder deinen Lehrer.
