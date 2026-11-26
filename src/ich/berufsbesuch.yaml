@@ -30,12 +30,12 @@ blocks:
       - type: text
         text:
           de: |
-            Fall 1 ist entschieden. Jetzt hat Frau Berg, die Klassenlehrerin der 6b, drei Gäste eingeladen. Sie
+            Fall 1 ist entschieden. Auf der ersten Seite hast du Informatiksysteme wiederholt. Jetzt hat Frau Berg, die Klassenlehrerin der 6b, drei Gäste eingeladen. Sie
             erzählen, wie Computer ihre Arbeit verändert haben. Du kennst schon Informatiksysteme aus deinem Alltag.
 
             Auf dieser Seite lernst du an Beispielen, wie Informatiksysteme die Arbeit und das Leben verändern.
           en: |
-            Case 1 is settled. Now Ms Berg, the class teacher of 6b, has invited three guests. They tell the class how
+            Case 1 is settled. On the first page you went over computer systems. Now Ms Berg, the class teacher of 6b, has invited three guests. They tell the class how
             computers have changed their work. You already know computer systems from your everyday life.
 
             On this page you learn from examples how computer systems change work and life.
@@ -74,22 +74,18 @@ blocks:
           de: Was die Gäste erzählen, früher und heute
           en: What the guests tell, before and today
         header:
-          - { de: Gast, en: Guest }
           - { de: Früher, en: Before }
           - { de: Heute, en: Today }
-        rowHeaders: true
         rows:
-          - - { de: Herr Kaya, en: Mr Kaya }
-            - {
-                de: "Er rechnete Preise im Kopf, Bestellungen standen auf Zetteln.",
-                en: "He added up prices in his head; orders were on slips of paper.",
+          - - {
+                de: "Herr Kaya rechnete Preise im Kopf. Bestellungen standen auf Zetteln.",
+                en: "Mr Kaya added up prices in his head. Orders were on slips of paper.",
               }
             - {
                 de: "Die Kasse rechnet den Preis aus. Bestellungen kommen auch per App.",
                 en: "The till works out the price. Orders also come by app.",
               }
-          - - { de: Frau Schulte, en: Ms Schulte }
-            - {
+          - - {
                 de: "Frau Schulte melkte jede Kuh selbst, mit der Melkmaschine.",
                 en: "Ms Schulte milked every cow herself, with the milking machine.",
               }
@@ -97,14 +93,13 @@ blocks:
                 de: "Ein Melkroboter melkt die Kühe ganz von selbst. Frau Schulte schaut jeden Tag nach den Tieren.",
                 en: "A milking robot milks the cows all by itself. Ms Schulte checks on the animals every day.",
               }
-          - - { de: Frau Nguyen, en: Ms Nguyen }
-            - {
-                de: "Bevor es Computer gab, gab es ihren Beruf nicht.",
-                en: "Before there were computers, her job did not exist.",
+          - - {
+                de: "Bevor es Computer gab, gab es Frau Nguyens Beruf nicht.",
+                en: "Before there were computers, Ms Nguyen's job did not exist.",
               }
             - {
-                de: "Sie programmiert Apps, zum Beispiel die Bestell-App der Bäckerei.",
-                en: "She programs apps, for example the bakery's ordering app.",
+                de: "Frau Nguyen programmiert Apps, zum Beispiel die Bestell-App der Bäckerei.",
+                en: "Ms Nguyen programs apps, for example the bakery's ordering app.",
               }
       - type: text
         text:
@@ -195,8 +190,8 @@ blocks:
           en: A baker and a farmer work with computer systems too. They do not program them, but they use them every day.
       - type: text
         text:
-          de: "Herr Kaya überlegt etwas Neues. Mehr als eine Stufe kann hier passen. Wie urteilst du?"
-          en: "Mr Kaya is thinking about something new. More than one step can fit here. What is your judgement?"
+          de: "Herr Kaya plant etwas Neues. Mehr als eine Stufe kann hier passen. Wie urteilst du?"
+          en: "Mr Kaya is planning something new. More than one step can fit here. What is your judgement?"
       - type: vue-component
         component: UrteilAufgabe
         props:
@@ -218,8 +213,8 @@ blocks:
                 de: Was wird für Herrn Kaya leichter, wenn die Bestellungen in der App ankommen?
                 en: What gets easier for Mr Kaya when the orders arrive in the app?
             - text:
-                de: Herr Lange ist 78 und hat kein Smartphone. Er kann dann nicht mehr bestellen.
-                en: Mr Lange is 78 and has no smartphone. Then he can no longer order.
+                de: Herr Lange, ein Stammkunde, ist 78 und hat kein Smartphone. Er kann dann nicht mehr bestellen.
+                en: Mr Lange, a regular customer, is 78 and has no smartphone. Then he can no longer order.
               zaehlt: dagegen
               warum:
                 de: "Denk an den Merksatz: Für wen ist die Veränderung schwer?"
@@ -245,7 +240,7 @@ blocks:
               warum:
                 de: Ändert die Farbe etwas daran, wer bestellen kann?
                 en: Does the colour change anything about who can order?
-          erlaubt: [2, 3, 4]
+          erlaubt: [1, 2, 3, 4]
           gruendeTitel: { de: "Wie zählt jeder Grund?", en: "How does each reason count?" }
           skalaTitel:
             {
@@ -256,8 +251,8 @@ blocks:
           dagegen: { de: zählt dagegen, en: counts against }
           nicht: { de: zählt nicht, en: does not count }
           positionFalsch:
-            de: "Die Gründe stimmen. Stufe {stufe} „{wort}“ passt aber nicht dazu: Es gibt gewichtige Gründe dafür und dagegen. Welche Stufe zeigt, dass beide Seiten zählen?"
-            en: "The reasons are right. But step {stufe} “{wort}” does not fit them: there are strong reasons for and against. Which step shows that both sides count?"
+            de: "Die Gründe stimmen. Stufe {stufe} „{wort}“ passt aber nicht dazu: Es gibt einen gewichtigen Grund dagegen. Kann der Plan für Herrn Lange ganz okay sein?"
+            en: "The reasons are right. But step {stufe} “{wort}” does not fit them: there is a strong reason against. Can the plan be fully okay for Mr Lange?"
           fehltGrund: { de: Ordne noch jeden Grund ein., en: Sort every reason first. }
           fehltStufe: { de: Wähle noch eine Stufe auf der Skala., en: Choose a step on the scale first. }
         examples:

@@ -83,10 +83,10 @@ blocks:
       - type: text
         text:
           de: |
-            Eine Chat-KI hat aus sehr vielen Beispieltexten gelernt. Sie findet Muster darin und schreibt so neue
+            Eine Chat-KI hat aus sehr vielen Beispieltexten gelernt, wie beim Trainingsbeutel. Sie findet Muster darin und schreibt so neue
             Texte. Das bringt Chancen und Risiken:
           en: |
-            A chat AI has learned from a huge number of example texts. It finds patterns in them and writes new texts
+            A chat AI has learned from a huge number of example texts, as with the training bag. It finds patterns in them and writes new texts
             this way. That brings opportunities and risks:
       - type: table
         caption:
@@ -142,9 +142,14 @@ blocks:
             right: { de: im Buch nachprüfen, en: check it in the book }
           - left: { de: Jona versteht ein Wort nicht., en: Jona does not understand a word. }
             right: { de: sich das Wort erklären lassen, en: ask for the word to be explained }
-          - left: { de: Jona will der KI schreiben, wo Jona wohnt., en: Jona wants to tell the AI where Jona lives. }
+          - left:
+              { de: "Jona will der KI schreiben, wo Jona wohnt.", en: "Jona wants to tell the AI where Jona lives." }
             right: { de: nichts Persönliches eintippen, en: type in nothing personal }
-          - left: { de: Jona will die KI für den ganzen Text nutzen., en: Jona wants to use the AI for the whole text. }
+          - left:
+              {
+                de: "Jona weiß nicht, ob KI bei dieser Aufgabe erlaubt ist.",
+                en: "Jona does not know if AI is allowed for this task.",
+              }
             right: { de: "erst fragen, was die Schule erlaubt", en: "first ask what the school allows" }
         distractors:
           - { de: "einfach glauben, weil eine KI es sagt", en: "just believe it, because an AI says so" }
@@ -171,7 +176,7 @@ blocks:
         props:
           fall:
             de: "Fall 3a: Jona lässt die Chat-KI den ganzen Text schreiben und gibt ihn als eigenen ab."
-            en: "Case 3a: Jona lets the chat AI write the whole text and hands it in as Jona's own."
+            en: "Case 3a: Jona lets the chat AI write the whole text and hands it in as if Jona wrote it."
           stufen:
             - { de: geht nicht, en: not okay }
             - { de: eher nicht, en: mostly not }
@@ -187,8 +192,8 @@ blocks:
                 de: "Denk an die erste Frage im Kasten: Was lernt Jona dabei?"
                 en: "Think of the first question in the box: what does Jona learn?"
             - text:
-                de: Frau Berg denkt, der Text sei von Jona.
-                en: Ms Berg thinks the text is Jona's.
+                de: "Frau Berg wird getäuscht: Sie denkt, der Text sei von Jona."
+                en: "Ms Berg is fooled: she thinks Jona wrote the text."
               zaehlt: dagegen
               warum:
                 de: Ist es fair, wenn Frau Berg etwas Falsches glaubt?
@@ -230,7 +235,7 @@ blocks:
         props:
           fall:
             de: "Fall 3b: Frau Berg erlaubt, KI zum Erklären zu nutzen. Jona lässt sich „Winterschlaf“ erklären, prüft es im Buch und schreibt den Text selbst."
-            en: "Case 3b: Ms Berg allows AI for explanations. Jona asks the chat AI to explain “hibernation”, checks it in the book and writes the text alone."
+            en: "Case 3b: Ms Berg allows AI for explanations. Jona asks the chat AI to explain “hibernation”, checks it in the book and then writes the text without the AI."
           stufen:
             - { de: geht nicht, en: not okay }
             - { de: eher nicht, en: mostly not }
@@ -240,7 +245,7 @@ blocks:
           gruende:
             - text:
                 de: Jona versteht das Wort jetzt und schreibt selbst.
-                en: Jona now understands the word and writes the text alone.
+                en: Jona now understands the word and writes the text without the AI.
               zaehlt: dafuer
               warum:
                 de: "Denk an die erste Frage im Kasten: Was lernt Jona dabei?"
@@ -296,38 +301,26 @@ blocks:
     blocks:
       - type: table
         caption:
-          de: Die Fälle des Kapitels, die Stufen, die zu den Gründen passen, und was am meisten wiegt
-          en: The cases of this chapter, the steps that fit the reasons, and what weighs most
+          de: Die Fälle des Kapitels und was in ihnen am meisten wiegt
+          en: The cases of this chapter and what weighs most in them
         header:
           - { de: Fall, en: Case }
-          - { de: Passende Stufen, en: Steps that fit }
           - { de: Was am meisten wiegt, en: What weighs most }
         rowHeaders: true
         rows:
-          - - { de: "1: fremdes Foto auf die Schulhomepage", en: "1: someone else's photo on the school website" }
-            - { de: "1 bis 2", en: "1 to 2" }
+          - - { de: "1: fremdes Foto ins Internet", en: "1: someone else's photo online" }
             - { de: das Recht der Urheberin, en: the creator's right }
-          - - { de: "2: Bestellen nur per App", en: "2: ordering by app only" }
-            - { de: "2 bis 4", en: "2 to 4" }
-            - {
-                de: "für wen es leichter und für wen es schwerer wird",
-                en: "who it gets easier for and who it gets harder for",
-              }
-          - - { de: "3a: KI-Text als eigenen abgeben", en: "3a: handing in an AI text as your own" }
-            - { de: "1 bis 2", en: "1 to 2" }
-            - { de: "was du dabei lernst, und ehrlich sein", en: "what you learn, and being honest" }
-          - - {
-                de: "3b: sich erklären lassen und prüfen, erlaubt",
-                en: "3b: getting an explanation and checking it, allowed",
-              }
-            - { de: "3 bis 5", en: "3 to 5" }
-            - { de: "du lernst selbst, die Schule erlaubt es", en: "you learn yourself, the school allows it" }
+          - - { de: "2: nur per App bestellen", en: "2: ordering by app only" }
+            - { de: "für wen es leichter und für wen es schwerer wird", en: "who it gets easier and harder for" }
+          - - { de: "3a: KI-Text als eigenen abgeben", en: "3a: AI text handed in as your own" }
+            - { de: "was du lernst, und ehrlich sein", en: "what you learn, and being honest" }
+          - - { de: "3b: erklären lassen und prüfen", en: "3b: explanation, then checking" }
+            - { de: "was du lernst, und was die Schule erlaubt", en: "what you learn, and what the school allows" }
       - type: text
         text:
           de: |
             Du kannst jetzt Fälle aus der digitalen Welt beurteilen: Gründe prüfen, gewichten und eine Stufe wählen,
-            die dazu passt. Im nächsten Kapitel geht es um deine eigenen Daten und eine Spur, die du im Netz
-            hinterlässt.
+            die dazu passt. Solche Fälle triffst du jeden Tag. Erklär einem Erwachsenen zu Hause eines deiner Urteile.
           en: |
-            You can now judge cases from the digital world: check reasons, weigh them and choose a step that fits.
-            The next chapter is about your own data and a trail you leave online.
+            You can now judge cases from the digital world: check reasons, weigh them and choose a step that fits. You
+            meet cases like these every day. Explain one of your judgements to an adult at home.

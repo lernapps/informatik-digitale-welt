@@ -29,13 +29,13 @@ blocks:
       - type: text
         text:
           de: |
-            Die Klasse 6b fährt zum Seeberg. Selin und Mia machen ein Plakat dazu. Mia hat einen Zug gemalt. Selin
-            findet mit der Bildersuche ein schönes Foto vom See. Ein Klick, und es ist auf ihrem Tablet.
+            Die Klasse 6b fährt zum Seeberg, einem Berg an einem See. In der 6b sind auch Tom, Lea, Ben und Ali. Selin und Mia machen ein Plakat zur Klassenfahrt. Mia hat einen Zug gemalt. Selin
+            findet mit der Bildersuche ein schönes Foto vom See. Ein Klick, und es ist auf ihrem Tablet. Selin und Mia erleben hier einen **Fall**: eine Lage, in der du entscheiden musst, was okay ist.
 
             Auf dieser Seite lernst du, wem ein Bild gehört und was das Urheberrecht schützt.
           en: |
-            Class 6b is going on a trip to the Seeberg. Selin and Mia are making a poster about it. Mia has painted a
-            train. Selin finds a nice photo of the lake with a picture search. One click, and it is on her tablet.
+            Class 6b is going on a trip to the Seeberg, a hill by a lake (“See” means lake, “Berg” means hill). Tom, Lea, Ben and Ali are in class 6b too. Selin and Mia are making a poster about the trip. Mia has painted a
+            train. Selin finds a nice photo of the lake with a picture search. One click, and it is on her tablet. Selin and Mia are in a **case**: a situation where you have to decide what is okay.
 
             On this page you learn who a picture belongs to and what copyright protects.
       - type: single-choice
@@ -205,8 +205,8 @@ blocks:
       - type: single-choice
         id: ben-kopiert
         text:
-          de: Ben findet Mias Zug toll. Ben kopiert ihn und hängt die Kopie mit Bens Namen in der 6c auf. Was ist daran falsch?
-          en: Ben loves Mia's train. Ben copies it and puts up the copy with Ben's name on it in class 6c. What is wrong with that?
+          de: Ben findet Mias Zug toll. Ben kopiert ihn und hängt die Kopie mit Bens Namen im Klassenzimmer auf. Was ist daran falsch?
+          en: Ben loves Mia's train. Ben copies it and puts up the copy with Ben's name on it in the classroom. What is wrong with that?
         options:
           - text: { de: Mia hat es nicht erlaubt und wird nicht genannt., en: Mia has not allowed it and is not named. }
             correct: true
@@ -228,5 +228,5 @@ blocks:
           en: Whoever copies someone else's work and shows it as their own goes against the creator's right. Ben would have to ask Mia and name Mia.
       - type: text
         text:
-          de: "Das Foto vom See gehört also nicht Selin. Darf sie es trotzdem für das Plakat nehmen? Das klärst du auf der nächsten Seite."
-          en: "So the photo of the lake does not belong to Selin. May she still use it for the poster? You find out on the next page."
+          de: "Das Foto vom See gehört also nicht Selin. Die Bildersuche zeigt Selin noch zwei andere Fotos vom See. Darf sie eines davon für das Plakat nehmen? Das klärst du auf der nächsten Seite."
+          en: "So the photo of the lake does not belong to Selin. The picture search shows Selin two more photos of the lake. May she use one of them for the poster? You find out on the next page."

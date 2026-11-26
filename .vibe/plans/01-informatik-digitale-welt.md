@@ -62,6 +62,16 @@ wie sie handeln. Welle 1: Kapitel 1 „Ich in der digitalen Welt“ (Klasse 5-6)
     „KI ist immer verboten“.
 - Umfang: in Kapitel 1 (5-6) mit 4 Seiten und Wiederholung; nicht drin: Datenschutz, Recht am eigenen Bild, Lizenzmodelle
   im Vergleich (spätere Kapitel), Technik der KI (#493). Sprachen de und en.
+- Prüfung der ganzen App als Lernende und Fachprüfung (2026-11-26), behoben:
+  - Geschmack zählt nie, ein Wunsch der Klasse zählt dafür (Beispiel der Skala und Fall 1 waren widersprüchlich).
+  - Seite 2 nennt die Ausnahme für den Unterricht; die Zahl-Aufgabe fragt „verkaufen“ statt „im Flur zeigen“.
+  - Melken: früher selbst mit der Melkmaschine, heute Melkroboter (nur das ist belegt); Tabelle zweispaltig für 360 px.
+  - Rückblick ohne Stufen (verriet die Lösung), mit 3a und 3b; kein Verweis auf ein ungebautes Kapitel.
+  - „Fall“ und Tom, Lea, Ben, Ali auf Seite 2 eingeführt; Übergänge 2→3 und 3→4 passen.
+  - CC BY: Lizenz mit Link nennen, auf Papier die Internet-Adresse; Quelle am besten mit Internet-Adresse.
+  - Fall 2 jetzt `erlaubt: [1, 2, 3, 4]`; Rückmeldungen als Fragen; KI „erzeugt“ statt „denkt nach“.
+  - Englisch: „credit“ statt „source“ für die Quellenangabe; Seeberg erklärt.
+  - Offen, an die Vorlage gemeldet: Recap-Links zeigen Kennungen, „Neue Aufgabe“ bei festem Fall, © im Bildbadge.
 
 ## Explore
 

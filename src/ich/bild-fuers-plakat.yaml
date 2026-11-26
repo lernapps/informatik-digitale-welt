@@ -38,20 +38,20 @@ blocks:
       - type: text
         text:
           de: |
-            Auf der letzten Seite hast du gelernt: Ein Foto ist geschützt. Es gehört der Fotografin, also der Urheberin. Sie entscheidet, was damit passieren darf. Die Bildersuche zeigt Selin drei Fotos vom See. Unter
-            jedem steht ein anderer Hinweis. Ein **Fall** ist so eine Lage, in der du entscheiden musst, was okay ist.
+            Auf der letzten Seite hast du gelernt: Ein Foto ist geschützt. Es gehört der Person, die es gemacht hat, der Urheberin oder dem Urheber. Sie entscheidet, was damit passieren darf. Die Bildersuche zeigt Selin drei Fotos vom See. Unter
+            jedem steht ein anderer Hinweis.
 
             Auf dieser Seite lernst du, wann du ein fremdes Bild nutzen darfst und wie du die Quelle angibst.
           en: |
-            On the last page you learned: a photo is protected. It belongs to the photographer, who is its creator. She
+            On the last page you learned: a photo is protected. It belongs to the person who took it, its creator. They
             decides what may happen to it. The picture search shows Selin three photos of the lake. Each one has a
-            different note under it. A **case** is a situation like this, where you have to decide what is okay.
+            different note under it.
 
-            On this page you learn when you may use someone else's picture and how to give the source.
+            On this page you learn when you may use someone else's picture and how to give a credit.
       - type: table
         caption:
-          de: Die drei Fotos und ihre Hinweise (alle Namen erfunden). Was die Zeichen bedeuten, kommt gleich.
-          en: The three photos and their notes (all names made up). What the signs mean comes next.
+          de: Die drei Fotos und ihre Hinweise (alle Namen erfunden). Das Zeichen © heißt Copyright, englisch für Urheberrecht. Was CC bedeutet, kommt gleich.
+          en: The three photos and their notes (all names made up). The sign © means copyright. What CC means comes next.
         header:
           - { de: Foto, en: Photo }
           - { de: Hinweis unter dem Foto, en: Note under the photo }
@@ -88,8 +88,8 @@ blocks:
               de: Pia Brandt hat ihr Foto für alle freigegeben.
               en: Pia Brandt has made her photo free for everyone.
         explanation:
-          de: „Alle Rechte vorbehalten“ heißt, dass die Urheberin über die Nutzung selbst entscheidet, außer bei Ausnahmen wie im Unterricht. Das Zeichen © steht für Copyright, das englische Wort für Urheberrecht.
-          en: “All rights reserved” means that the creator decides about its use herself, except for exceptions such as lessons. The sign © stands for copyright.
+          de: „Alle Rechte vorbehalten“ heißt, dass die Urheberin über die Nutzung selbst entscheidet, außer bei Ausnahmen wie im Unterricht.
+          en: “All rights reserved” means that the creator decides about its use herself, except for exceptions such as lessons.
   - type: section
     id: idee
     title:
@@ -151,7 +151,7 @@ blocks:
                 nicht sicher, frag deine Lehrerin oder deinen Lehrer.
               en: |
                 **In class, and to show at your school,** you may use someone else's picture for your lessons. A law
-                allows this, the German Copyright Act. Always give the source, so everyone knows who made the picture.
+                allows this, the German Copyright Act. Always give a credit, so everyone knows who made the picture.
 
                 **Online, where everyone can see it**, also on the school website, you need permission or a free licence. If you are not sure,
                 ask your teacher.
@@ -229,7 +229,7 @@ blocks:
           - left: { de: CC BY 4.0, en: CC BY 4.0 }
             right: { de: Urheberin und Lizenz nennen, en: name the creator and the licence }
           - left: { de: CC0, en: CC0 }
-            right: { de: nichts Bestimmtes, en: nothing in particular }
+            right: { de: "frei nutzen, ohne zu fragen", en: "use it freely, without asking" }
         distractors:
           - { de: "nichts, weil es im Internet steht", en: "nothing, because it is on the internet" }
         hint:
@@ -311,7 +311,7 @@ blocks:
         id: quelle-reicht-nicht
         text:
           de: "Tom sagt: „Wenn ich die Quelle angebe, darf ich jedes Bild ins Internet stellen.“ Stimmt das?"
-          en: "Tom says: “If I give the source, I may put any picture online.” Is that true?"
+          en: "Tom says: “If I give a credit, I may put any picture online.” Is that true?"
         answer: false
         hint:
           de: Denk an Foto 1. Wer entscheidet, ob es ins Internet darf?
@@ -387,8 +387,8 @@ blocks:
           de: |
             Erklär dein Urteil jemandem neben dir: Welcher Grund wiegt am meisten?
 
-            Als Nächstes besucht die 6b Menschen, die bei der Arbeit Computer nutzen. Das ist Fall 2.
+            Als Nächstes bekommt die 6b Besuch von Menschen, die bei der Arbeit Computer nutzen. Das ist Fall 2.
           en: |
             Explain your judgement to someone next to you: which reason weighs most?
 
-            Next, class 6b meets people who use computers at work. That is case 2.
+            Next, class 6b has visitors who use computers at work. That is case 2.

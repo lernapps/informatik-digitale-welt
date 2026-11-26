@@ -38,12 +38,12 @@ Kapitel `ich` „Ich in der digitalen Welt“ (5-6), in dieser Reihenfolge:
 4. `ich/berufsbesuch` (`informatik-in-alltag-und-beruf`): „Ich kann an Beispielen beschreiben, wie
    Informatiksysteme mein Leben und die Arbeitswelt verändern.“ Drei Gäste, Tabelle früher/heute, vier Arten der
    Veränderung. Übungen: `wo-bei-kaya`, `was-sich-veraendert` (matching), `bestellung-per-app` (ordering),
-   `nur-informatiker` (true-false), `UrteilAufgabe` Fall 2 Bäckerei-App (`erlaubt: [2, 3, 4]`).
+   `nur-informatiker` (true-false), `UrteilAufgabe` Fall 2 Bäckerei-App (`erlaubt: [1, 2, 3, 4]`; nur 5 passt nicht, weil Herr Lange ausgeschlossen wird).
 5. `ich/ki-hausaufgaben` (`ki-chancen-und-risiken`): „Ich kann an Beispielen Chancen und Risiken künstlicher
    Intelligenz für mich und die Gesellschaft beschreiben.“ Tabelle Chancen/Risiken, Kasten „Zwei Fragen vor jeder
    Nutzung“. Übungen: `was-lernt-jona`, `was-jona-tun-soll` (matching), `ki-immer-richtig` (true-false),
    `UrteilAufgabe` Fall 3a (ganzen Text abgeben, `erlaubt: [1, 2]`) und Fall 3b (erklären lassen und prüfen,
-   `erlaubt: [3, 4, 5]`). Abschnitt `rueckblick`: Tabelle der drei Fälle.
+   `erlaubt: [3, 4, 5]`). Abschnitt `rueckblick`: Tabelle der Fälle 1, 2, 3a, 3b mit dem, was am meisten wiegt (ohne Stufen, sonst verrät sie die Lösung vor „Prüfen“). Das Kapitel endet ohne Verweis auf ein noch nicht gebautes Kapitel.
 
 Geplant, nicht gebaut: Kapitel 2 „Meine Daten gehören mir“ (7-8: personenbezogene-daten, eigene-daten-schuetzen,
 datenschutz-und-datensicherheit, recht-am-eigenen-bild), Kapitel 3 „Kommunizieren und urteilen im Netz“ (7-8:
@@ -68,7 +68,7 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
   - Jona (11): kurze rotblonde Haare #c8642a, Haut #f3d2b3, grüner Kapuzenpulli #2e8b57.
   - Selin (11): lange dunkelbraune Haare mit Pferdeschwanz #3b2314, Haut #d9a27a, orange Jacke #e07b24.
   - Mia (11): schwarze Locken #222, runde Brille, Haut #8d5a3b, lila Jacke #7b4fb8.
-  - Weitere Kinder der 6b: Tom, Ben, Ali, Lea. Klassenlehrerin Frau Berg. Parallelklasse 6c.
+  - Weitere Kinder der 6b: Tom, Ben, Ali, Lea. Klassenlehrerin Frau Berg. Parallelklasse 6c.  - Der Begriff „Fall“ wird auf `wem-gehoert-das-bild` eingeführt, dort auch Tom, Lea, Ben und Ali (alle 6b).
   - Fall 1 (Seiten 2 und 3): Selin sucht ein Foto für das Plakat „Klassenfahrt zum Seeberg“; Mia malt einen Zug.
     Die drei Fotos (alle Namen erfunden): 1 „Seeberg im Sommer“, © Lena Vogt, alle Rechte vorbehalten;
     2 „Steg am See“, Karim Haddad, CC BY 4.0; 3 „Seeufer am Morgen“, Pia Brandt, CC0.
