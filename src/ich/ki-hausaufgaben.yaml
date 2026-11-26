@@ -1,0 +1,327 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: KI bei den Hausaufgaben
+  en: AI for homework
+description:
+  de: "Chancen und Risiken von KI am Beispiel einer Chat-KI bei den Hausaufgaben: Was lerne ich dabei, und was erlaubt meine Schule? Zwei Urteile und ein Rückblick."
+  en: "Opportunities and risks of AI, using a chat AI for homework as the example: what do I learn, and what does my school allow? Two judgements and a look back."
+competencies: [ki-chancen-und-risiken]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Fall 3: Jona und die Chat-KI"
+      en: "Case 3: Jona and the chat AI"
+    blocks:
+      - type: labelled-figure
+        image: images/hausaufgaben.svg
+        source: { de: "eigene Zeichnung, Oliver Jägle", en: "own drawing, Oliver Jägle" }
+        licence: CC-BY-4.0
+        alt:
+          de: Jona sitzt am Schreibtisch. Auf dem Tablet sind zwei Sprechblasen, eine kurze und eine lange. Daneben liegt ein aufgeschlagenes Buch mit einem Igel.
+          en: Jona sits at a desk. On the tablet there are two speech bubbles, a short one and a long one. Next to it is an open book with a hedgehog.
+        caption:
+          de: Jona bei den Hausaufgaben, mit Tablet und Buch.
+          en: Jona doing homework, with a tablet and a book.
+        labels:
+          - {
+              x: 54,
+              y: 41,
+              marker: A,
+              text:
+                {
+                  de: "Jonas Frage: „Schreib mir einen Text über Igel im Winter.“",
+                  en: "Jona's question: “Write me a text about hedgehogs in winter.”",
+                },
+            }
+          - { x: 46, y: 58, marker: B, text: { de: Antwort der Chat-KI, en: the chat AI's answer } }
+          - { x: 82, y: 60, marker: C, text: { de: Buch über Igel, en: book about hedgehogs } }
+      - type: text
+        text:
+          de: |
+            Frau Nguyen hat erzählt, dass eine KI Texte schreiben kann. Jona soll als Hausaufgabe einen Text über Igel
+            im Winter schreiben. Jona tippt die Aufgabe in eine **Chat-KI**, ein Programm, das auf Fragen mit Texten
+            antwortet. In Sekunden steht ein ganzer Text da.
+
+            Auf dieser Seite lernst du Chancen und Risiken von KI kennen und urteilst, wie Jona die Chat-KI nutzen soll.
+          en: |
+            Ms Nguyen said that an AI can write texts. For homework, Jona has to write a text about hedgehogs in
+            winter. Jona types the task into a **chat AI**, a program that answers questions with texts. In seconds a
+            whole text appears.
+
+            On this page you learn about opportunities and risks of AI and judge how Jona should use the chat AI.
+      - type: single-choice
+        id: was-lernt-jona
+        text:
+          de: Jona gibt den Text der Chat-KI einfach ab. Was hat Jona dabei über Igel gelernt?
+          en: Jona simply hands in the chat AI's text. What has Jona learned about hedgehogs?
+        options:
+          - text: { de: fast nichts, en: almost nothing }
+            correct: true
+            info:
+              de: Die KI hat gelesen, nachgedacht und geschrieben. Jona hat nur die Aufgabe eingetippt.
+              en: The AI did the reading, thinking and writing. Jona only typed in the task.
+          - text: { de: "alles, was im Text steht", en: "everything that is in the text" }
+            correct: false
+            info:
+              de: Ein Text, den man nicht selbst schreibt und vielleicht nicht einmal liest, bleibt nicht im Kopf.
+              en: A text you do not write yourself, and maybe do not even read, does not stay in your head.
+          - text: { de: wie man Texte gut schreibt, en: how to write texts well }
+            correct: false
+            info:
+              de: Schreiben lernt Jona nur, wenn Jona selbst schreibt.
+              en: Jona only learns to write by writing.
+        explanation:
+          de: Hausaufgaben sind zum Üben da. Wer alles die KI machen lässt, übt selbst nicht.
+          en: Homework is there for practice. If the AI does everything, you do not practise.
+  - type: section
+    id: idee
+    title:
+      de: Chancen und Risiken
+      en: Opportunities and risks
+    blocks:
+      - type: text
+        text:
+          de: |
+            Eine Chat-KI hat aus sehr vielen Beispieltexten gelernt. Sie findet Muster darin und schreibt so neue
+            Texte. Das bringt Chancen und Risiken:
+          en: |
+            A chat AI has learned from a huge number of example texts. It finds patterns in them and writes new texts
+            this way. That brings opportunities and risks:
+      - type: table
+        caption:
+          de: Chancen und Risiken einer Chat-KI bei den Hausaufgaben
+          en: Opportunities and risks of a chat AI for homework
+        header:
+          - { de: Chancen, en: Opportunities }
+          - { de: Risiken, en: Risks }
+        rows:
+          - - { de: erklärt schwierige Wörter, en: explains difficult words }
+            - {
+                de: "schreibt manchmal Falsches, das sicher klingt",
+                en: "sometimes writes wrong things that sound sure",
+              }
+          - - { de: stellt dir Übungsfragen, en: asks you practice questions }
+            - {
+                de: "antwortet einseitig, wenn ihre Beispiele einseitig waren",
+                en: "answers one-sidedly if its examples were one-sided",
+              }
+          - - { de: übersetzt in andere Sprachen, en: translates into other languages }
+            - {
+                de: "Wer alles abgibt, lernt selbst nichts.",
+                en: "If you hand everything in, you learn nothing yourself.",
+              }
+      - type: note
+        title: { de: Zwei Fragen vor jeder Nutzung, en: Two questions before every use }
+        blocks:
+          - type: text
+            text:
+              de: |
+                **Was lerne ich dabei?** Lass dir helfen, aber denk und schreib selbst.
+
+                **Was erlaubt meine Schule?** Frag deine Lehrerin oder deinen Lehrer. Gib nie einen KI-Text als
+                deinen eigenen ab. Und tipp nichts Persönliches ein, etwa deine Adresse.
+              en: |
+                **What do I learn?** Get help, but think and write yourself.
+
+                **What does my school allow?** Ask your teacher. Never hand in an AI text as your own. And do not type
+                in anything personal, such as your address.
+  - type: section
+    id: uebung
+    title:
+      de: Übung
+      en: Practice
+    blocks:
+      - type: matching
+        id: was-jona-tun-soll
+        text:
+          de: Was soll Jona in diesen Lagen tun? Ordne zu.
+          en: What should Jona do in these situations? Match them up.
+        pairs:
+          - left: { de: Die KI nennt eine Zahl über Igel., en: The AI gives a number about hedgehogs. }
+            right: { de: im Buch nachprüfen, en: check it in the book }
+          - left: { de: Jona versteht ein Wort nicht., en: Jona does not understand a word. }
+            right: { de: sich das Wort erklären lassen, en: ask for the word to be explained }
+          - left: { de: Die KI fragt nach Jonas Adresse., en: The AI asks for Jona's address. }
+            right: { de: nichts Persönliches eintippen, en: type in nothing personal }
+          - left: { de: Jona will die KI für den ganzen Text nutzen., en: Jona wants to use the AI for the whole text. }
+            right: { de: "erst fragen, was die Schule erlaubt", en: "first ask what the school allows" }
+        distractors:
+          - { de: "einfach glauben, weil eine KI es sagt", en: "just believe it, because an AI says so" }
+        hint:
+          de: Lies noch einmal die zwei Fragen im Kasten und die Risiken in der Tabelle.
+          en: Read the two questions in the box and the risks in the table again.
+        explanation:
+          de: Eine KI kann sich irren, darum prüft Jona Zahlen nach. Persönliches bleibt draußen, und die Schule entscheidet, was erlaubt ist.
+          en: An AI can be wrong, so Jona checks numbers. Personal things stay out, and the school decides what is allowed.
+      - type: true-false
+        id: ki-immer-richtig
+        text:
+          de: "Ben sagt: „Was eine Chat-KI schreibt, stimmt immer. Sie hat ja so viele Texte gelesen.“"
+          en: "Ben says: “What a chat AI writes is always true. It has read so many texts.”"
+        answer: false
+        hint:
+          de: "Denk an den Trainingsbeutel: Was in den Beutel kommt, bestimmt, was herauskommt."
+          en: "Think of the training bag: what goes into the bag decides what comes out."
+        explanation:
+          de: Eine Chat-KI findet Muster, sie weiß nicht, was wahr ist. Darum kann sie Falsches schreiben, das sicher klingt. Waren ihre Beispiele falsch oder einseitig, sind es ihre Antworten auch.
+          en: A chat AI finds patterns; it does not know what is true. So it can write wrong things that sound sure. If its examples were wrong or one-sided, its answers are too.
+      - type: vue-component
+        component: UrteilAufgabe
+        props:
+          fall:
+            de: "Fall 3a: Jona lässt die Chat-KI den ganzen Text schreiben und gibt ihn als eigenen ab."
+            en: "Case 3a: Jona lets the chat AI write the whole text and hands it in as Jona's own."
+          stufen:
+            - { de: geht nicht, en: not okay }
+            - { de: eher nicht, en: mostly not }
+            - { de: kommt darauf an, en: it depends }
+            - { de: eher okay, en: mostly okay }
+            - { de: ist okay, en: okay }
+          gruende:
+            - text:
+                de: Jona lernt dabei fast nichts über Igel.
+                en: Jona learns almost nothing about hedgehogs this way.
+              zaehlt: dagegen
+              warum:
+                de: "Denk an die erste Frage im Kasten: Was lernt Jona dabei?"
+                en: "Think of the first question in the box: what does Jona learn?"
+            - text:
+                de: Frau Berg denkt, der Text sei von Jona.
+                en: Ms Berg thinks the text is Jona's.
+              zaehlt: dagegen
+              warum:
+                de: Ist es fair, wenn Frau Berg etwas Falsches glaubt?
+                en: Is it fair if Ms Berg believes something that is not true?
+            - text:
+                de: Es geht viel schneller.
+                en: It is much faster.
+              zaehlt: dafuer
+              warum:
+                de: Zeit sparen ist ein echter Vorteil. Ein Grund kann zählen und trotzdem wenig wiegen.
+                en: Saving time is a real advantage. A reason can count and still weigh little.
+            - text:
+                de: Ali hat das auch schon gemacht.
+                en: Ali has done it too.
+              zaehlt: nicht
+              warum:
+                de: Sagt das etwas darüber, ob es richtig ist?
+                en: Does that say anything about whether it is right?
+          erlaubt: [1, 2]
+          gruendeTitel: { de: "Wie zählt jeder Grund?", en: "How does each reason count?" }
+          skalaTitel: { de: "Dein Urteil zu Fall 3a", en: "Your judgement on case 3a" }
+          dafuer: { de: zählt dafür, en: counts for }
+          dagegen: { de: zählt dagegen, en: counts against }
+          nicht: { de: zählt nicht, en: does not count }
+          positionFalsch:
+            de: "Die Gründe stimmen. Stufe {stufe} „{wort}“ passt aber nicht dazu: Jona lernt nichts und gibt einen fremden Text als eigenen aus. Wiegt Zeit sparen das auf?"
+            en: "The reasons are right. But step {stufe} “{wort}” does not fit them: Jona learns nothing and passes off a text that is not Jona's own. Does saving time make up for that?"
+          fehltGrund: { de: Ordne noch jeden Grund ein., en: Sort every reason first. }
+          fehltStufe: { de: Wähle noch eine Stufe auf der Skala., en: Choose a step on the scale first. }
+        examples:
+          accepted:
+            - { answer: { stufe: 1, einordnung: [dagegen, dagegen, dafuer, nicht] }, seed: 1 }
+            - { answer: { stufe: 2, einordnung: [dagegen, dagegen, dafuer, nicht] }, seed: 1 }
+          rejected:
+            - { answer: { stufe: 3, einordnung: [dagegen, dagegen, dafuer, nicht] }, seed: 1 }
+            - { answer: { stufe: 1, einordnung: [dagegen, dagegen, dafuer, dafuer] }, seed: 1 }
+      - type: vue-component
+        component: UrteilAufgabe
+        props:
+          fall:
+            de: "Fall 3b: Frau Berg erlaubt, KI zum Erklären zu nutzen. Jona lässt sich „Winterschlaf“ erklären, prüft es im Buch und schreibt den Text selbst."
+            en: "Case 3b: Ms Berg allows AI for explanations. Jona asks the chat AI to explain “hibernation”, checks it in the book and writes the text alone."
+          stufen:
+            - { de: geht nicht, en: not okay }
+            - { de: eher nicht, en: mostly not }
+            - { de: kommt darauf an, en: it depends }
+            - { de: eher okay, en: mostly okay }
+            - { de: ist okay, en: okay }
+          gruende:
+            - text:
+                de: Jona versteht das Wort jetzt und schreibt selbst.
+                en: Jona now understands the word and writes the text alone.
+              zaehlt: dafuer
+              warum:
+                de: "Denk an die erste Frage im Kasten: Was lernt Jona dabei?"
+                en: "Think of the first question in the box: what does Jona learn?"
+            - text:
+                de: Frau Berg hat es erlaubt.
+                en: Ms Berg has allowed it.
+              zaehlt: dafuer
+              warum:
+                de: "Denk an die zweite Frage im Kasten: Was erlaubt die Schule?"
+                en: "Think of the second question in the box: what does the school allow?"
+            - text:
+                de: Die KI kann sich auch bei der Erklärung irren.
+                en: The AI can be wrong in its explanation too.
+              zaehlt: dagegen
+              warum:
+                de: Ein Risiko bleibt, auch wenn Jona im Buch prüft. Es wiegt hier aber wenig.
+                en: A risk remains, even if Jona checks in the book. But here it weighs little.
+            - text:
+                de: Chat-KIs sind cool.
+                en: Chat AIs are cool.
+              zaehlt: nicht
+              warum:
+                de: Sagt „cool“ etwas darüber, ob Jona dabei lernt oder ob es erlaubt ist?
+                en: Does “cool” say anything about whether Jona learns or whether it is allowed?
+          erlaubt: [3, 4, 5]
+          gruendeTitel: { de: "Wie zählt jeder Grund?", en: "How does each reason count?" }
+          skalaTitel: { de: "Dein Urteil zu Fall 3b", en: "Your judgement on case 3b" }
+          dafuer: { de: zählt dafür, en: counts for }
+          dagegen: { de: zählt dagegen, en: counts against }
+          nicht: { de: zählt nicht, en: does not count }
+          positionFalsch:
+            de: "Die Gründe stimmen. Stufe {stufe} „{wort}“ passt aber nicht dazu: Jona lernt dabei, und die Schule erlaubt es. Wiegt das kleine Risiko so viel?"
+            en: "The reasons are right. But step {stufe} “{wort}” does not fit them: Jona learns from it, and the school allows it. Does the small risk weigh that much?"
+          fehltGrund: { de: Ordne noch jeden Grund ein., en: Sort every reason first. }
+          fehltStufe: { de: Wähle noch eine Stufe auf der Skala., en: Choose a step on the scale first. }
+        examples:
+          accepted:
+            - { answer: { stufe: 3, einordnung: [dafuer, dafuer, dagegen, nicht] }, seed: 1 }
+            - { answer: { stufe: 5, einordnung: [dafuer, dafuer, dagegen, nicht] }, seed: 1 }
+          rejected:
+            - { answer: { stufe: 1, einordnung: [dafuer, dafuer, dagegen, nicht] }, seed: 1 }
+            - { answer: { stufe: 4, einordnung: [dafuer, dafuer, nicht, nicht] }, seed: 1 }
+      - type: text
+        text:
+          de: "Erklär deine zwei Urteile jemandem neben dir: Was ist bei 3a und 3b anders?"
+          en: "Explain your two judgements to someone next to you: what is different between 3a and 3b?"
+  - type: section
+    id: rueckblick
+    title:
+      de: Rückblick auf die drei Fälle
+      en: Looking back at the three cases
+    blocks:
+      - type: table
+        caption:
+          de: Die Fälle des Kapitels, die Stufen, die zu den Gründen passen, und was am meisten wiegt
+          en: The cases of this chapter, the steps that fit the reasons, and what weighs most
+        header:
+          - { de: Fall, en: Case }
+          - { de: Passende Stufen, en: Steps that fit }
+          - { de: Was am meisten wiegt, en: What weighs most }
+        rowHeaders: true
+        rows:
+          - - { de: "1: fremdes Foto auf die Schulhomepage", en: "1: someone else's photo on the school website" }
+            - { de: "1 bis 2", en: "1 to 2" }
+            - { de: das Recht der Urheberin, en: the creator's right }
+          - - { de: "2: Bestellen nur per App", en: "2: ordering by app only" }
+            - { de: "2 bis 4", en: "2 to 4" }
+            - {
+                de: "für wen es leichter und für wen es schwerer wird",
+                en: "who it gets easier for and who it gets harder for",
+              }
+          - - { de: "3: KI-Text als eigenen abgeben", en: "3: handing in an AI text as your own" }
+            - { de: "1 bis 2", en: "1 to 2" }
+            - { de: "was du dabei lernst, was die Schule erlaubt", en: "what you learn, what the school allows" }
+      - type: text
+        text:
+          de: |
+            Du kannst jetzt Fälle aus der digitalen Welt beurteilen: Gründe prüfen, gewichten und eine Stufe wählen,
+            die dazu passt. Im nächsten Kapitel geht es um deine eigenen Daten und eine Spur, die du im Netz
+            hinterlässt.
+          en: |
+            You can now judge cases from the digital world: check reasons, weigh them and choose a step that fits.
+            The next chapter is about your own data and a trail you leave online.

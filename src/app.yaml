@@ -39,6 +39,14 @@ sources:
       en: "German Federal Agricultural Information Centre: How are dairy cows kept? (milking robots)"
     url: "https://www.landwirtschaft.de/tier-und-pflanze/tier/rinder/wie-werden-milchkuehe-gehalten"
   - title:
+      de: "klicksafe: Wie verlässlich ist ChatGPT?"
+      en: "klicksafe: How reliable is ChatGPT? (German)"
+    url: "https://www.klicksafe.de/materialien/wie-verlaesslich-ist-chatgpt"
+  - title:
+      de: "klicksafe: Risiken durch KI-Systeme"
+      en: "klicksafe: Risks of AI systems (German)"
+    url: "https://www.klicksafe.de/kuenstliche-intelligenz/risiken-durch-ki-systeme"
+  - title:
       de: "Gesellschaft für Informatik: Bildungsstandards Informatik für die Sekundarstufe I (2025), Abschnitt 5.5"
       en: "German Informatics Society: Educational standards in computer science, lower secondary (2025), section 5.5"
     url: "https://www.mnu.de/images/fachbereiche/Informatik/Bildungsstandards_Sek_I_2025__pdf-A_.pdf"

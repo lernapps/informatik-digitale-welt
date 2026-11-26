@@ -2,13 +2,13 @@
 # Read by the hooks, the review, the evals. Schema: @lernapps/tooling/guidance/plan-front-matter.v1.schema.json
 # Written by `lernapps plan` and the hooks. Never change a key or a value by hand.
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
-archetype: null
+archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { checks-pass: 1, plan-file: 2 }
 ---
 
 # Plan: Leben in der digitalen Welt: Fälle und Urteile, first version
@@ -30,7 +30,13 @@ wie sie handeln. Welle 1: Kapitel 1 „Ich in der digitalen Welt“ (Klasse 5-6)
 
 ## Key decisions
 
-<!-- One line each: decision and reason. Archetype first. Your own choice without the creator: mark "(guess)". -->
+- Archetyp explainer: Seiten erklären am Fall, dann üben und urteilen.
+- Urteilsskala als Komponente (Anzeige + Übung): Position und Gründe zusammen prüfen, kein Block kann das.
+- Kein `open-task`, kein `scope` (Orchestrator: Tutor in 5-6 oft nicht da, Epic einheitlich).
+- Urheberrecht auf zwei Seiten (Orchestrator: ja).
+- maschinelles-lernen in der Sammel-Wiederholung (Orchestrator: ja).
+- Kein `scope`: keine `open-task`, und die App folgt keinem Material des Erstellers.
+- Ocker der Skala #a67c2a statt #c9a23a: Kontrast 3:1 (WCAG 1.4.11).
 
 ## Notes
 
@@ -47,6 +53,15 @@ wie sie handeln. Welle 1: Kapitel 1 „Ich in der digitalen Welt“ (Klasse 5-6)
   (Verwertungsrechte), § 53 (Privatkopie), § 60a (Unterricht: 15 %, Abbildungen ganz, auch Präsentation an der
   Schule). Creative Commons: BY 4.0 deed, TASL-Empfehlung, CC0, sechs Lizenzen (creativecommons.org, gelesen).
 - Ungeprüft (Server 503): §§ 51, 63, 64, 72 UrhG, „Zuletzt geändert“; klicksafe-Seite (URL 404).
+- Je Baustein, wie die Kinder hinkommen, und welche Fehlvorstellung die Rückmeldung fängt:
+  - urheberrecht: Sie sehen Selins Foto-Fall, ordnen Werke und Lizenzen zu und urteilen. Fehlvorstellung: „Was im
+    Netz steht, darf jeder nehmen“; „mit Quellenangabe ist alles erlaubt“.
+  - informatik-in-alltag-und-beruf: Sie vergleichen Arbeit früher und heute bei drei Gästen. Fehlvorstellung:
+    „Computer nehmen nur Arbeit weg“ oder „nur Informatiker arbeiten mit Computern“.
+  - ki-chancen-und-risiken: Sie wägen Jonas Chat-KI-Fall ab. Fehlvorstellung: „Was die KI sagt, stimmt immer“;
+    „KI ist immer verboten“.
+- Umfang: in Kapitel 1 (5-6) mit 4 Seiten und Wiederholung; nicht drin: Datenschutz, Recht am eigenen Bild, Lizenzmodelle
+  im Vergleich (spätere Kapitel), Technik der KI (#493). Sprachen de und en.
 
 ## Explore
 
@@ -57,53 +72,57 @@ wie sie handeln. Welle 1: Kapitel 1 „Ich in der digitalen Welt“ (Klasse 5-6)
 
 ### Tasks
 
-- [ ] Check the start: the folder `.agents/skills/lernapps-app` exists (else stop and tell the creator that the folder
+- [x] Check the start: the folder `.agents/skills/lernapps-app` exists (else stop and tell the creator that the folder
       was not started with `init`), and `git branch --show-current` prints `work` (else `git switch -c work`).
-- [ ] Load skill `lernapps-app`. Tell the creator in two sentences what a lernapps app is and where it will live: at
+- [x] (skipped: Orchestrated epic: the orchestrator knows lernapps; told in the epic) Load skill `lernapps-app`. Tell the creator in two sentences what a lernapps app is and where it will live: at
       their own address, free and public, and once listed as a copy on lernapps.net. Say that the technical part
       (GitHub) comes at the end and that you do it.
-- [ ] Interview: ask the topics "Goal" and "Learners" of "Answers".
-- [ ] Load skill `lernapps-map-assignment` and read the learning map of the subject as it says. The creator brings
+- [x] Interview: ask the topics "Goal" and "Learners" of "Answers".
+- [x] Load skill `lernapps-map-assignment` and read the learning map of the subject as it says. The creator brings
       the content themselves (material, a word list, the pages): note under "Notes" which competencies of the map it
       covers. Else write the skill's assignment, with its story; the creator's yes answers the topics Content and
       Amount. A subject without a map: skip this task and say so.
-- [ ] Load skill `lernapps-exercise-patterns` and read its reference for the subject. Note under "Notes" how learners
+- [x] Load skill `lernapps-exercise-patterns` and read its reference for the subject. Note under "Notes" how learners
       will practise what the goal names.
-- [ ] Choose the archetype as skill `lernapps-app` says: read the README of each archetype in question, then tell the
+- [x] Choose the archetype as skill `lernapps-app` says: read the README of each archetype in question, then tell the
       creator in plain words what the chosen one can and cannot do. Write the archetype and its reason under "Key
       decisions".
-- [ ] Run `npx --no -- lernapps skills --archetype <name>` with the chosen archetype. It installs the archetype's
+- [x] Run `npx --no -- lernapps skills --archetype <name>` with the chosen archetype. It installs the archetype's
       skills and adds the archetype's tasks to this plan.
-<!-- archetype: explore -->
-- [ ] Interview: ask every other topic of "Answers", in order. Leave out only a topic that an answer of the creator
+- [x] Load skill `lernapps-explainer-design`. An explainer has the look of the runtime: write "fixed by the
+      archetype" under the topic "Look and feel" of "Answers".
+- [x] Interview: ask every other topic of "Answers", in order. Leave out only a topic that an answer of the creator
       already covers, and note which answer. A topic nobody answered is asked once before you write an assumption
       with "(guess)".
-- [ ] Load skill `lernapps-content-research` and research as it says. Write under "Notes": the strand or subject, the
+- [x] Load skill `lernapps-content-research` and research as it says. Write under "Notes": the strand or subject, the
       competencies by chapter with their ids, the sources you opened.
-<!-- archetype: explore-structure -->
-- [ ] Write under "Notes", one line per competency: how learners get there (they derive it, they do not only read it
+- [x] Write under "Notes" which competency goes on which page and which pages form a chapter, as "Map the content" of
+      skill `lernapps-explainer-design` says. Per page, name the prerequisites the app does not practise.
+- [x] Write under "Notes", one line per competency: how learners get there (they derive it, they do not only read it
       off), and which misconception the feedback catches.
-- [ ] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
+- [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Einverstanden, weiter mit dem Plan. maschinelles-lernen in der Sammel-Wiederholung: ja. open-task: nein, nicht in Welle 1. Zwei Seiten Urheberrecht: ja.
 
 ### Answers
 
 <!-- The interview: per topic the creator's answer, in their words. Keep the topics. -->
 
-- Goal: what learners do in the app, what they learn.
-- Learners: subject, school year, prior knowledge.
-- Model and focus: an app of the catalog (https://lernapps.net/apps/llms.txt) as model; what matters most (exercises,
-  visualisations, game feel).
-- Hurdles: misconceptions and mistakes of the learners; the creator's examples and experiments.
-- Content: who writes it (creator, you, from sources); own material (worksheets, tests).
-- Amount: how much content in the first version; what comes later.
-- Languages: German only, or German and English. Never English only.
-- Look and feel: calm like a worksheet, or like a game (colours, praise, effects); dark mode.
-- Terms: the creator's words for the main things in the app, used everywhere.
-- Finding the app: what teachers and parents would search for.
+- Goal: (Auftrag #505) „Ich kann Fälle aus der digitalen Welt beurteilen, von Urheberrecht und Datenschutz bis KI und
+  Big Data, und begründet entscheiden, wie ich handle.“ Welle 1: Kapitel 1.
+- Learners: Informatik, Klasse 5-6; Vorwissen aus #490 (Informatiksysteme) und #493 (KI im Alltag).
+- Model and focus: (Auftrag) Bewerten am Fall; Urteilsskala und Datenspur als wiederkehrende Bilder; Klasse 6b.
+- Hurdles: (Auftrag) „Was im Netz steht, darf jeder nehmen“; Urteil als richtig/falsch; KI-Hausaufgaben pauschal
+  verboten oder pauschal okay.
+- Content: Agent aus Primärquellen (UrhG, creativecommons.org), Fakten zu KI aus #493.
+- Amount: (Auftrag) Welle 1 nur Kapitel 1 mit 3 Bausteinen; Kapitel 2-4 später.
+- Languages: (Nachtrag 1) Deutsch und Englisch.
+- Look and feel: fixed by the archetype.
+- Terms: (Orchestrator) Urteilsskala, „in der Klasse und zum Zeigen in deiner Schule“, Chat-KI, Bildersuche.
+- Finding the app: Urheberrecht Klasse 5, KI Hausaufgaben, Informatik und Beruf, Medienbildung (guess).
 
 ## Plan
 
@@ -114,19 +133,21 @@ wie sie handeln. Welle 1: Kapitel 1 „Ich in der digitalen Welt“ (Klasse 5-6)
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-<archetype>-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-<archetype>-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-<!-- archetype: plan -->
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+      opening task, the change of activity, the reward, the story.
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
+- [x] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, so bauen. Die Musterseite bild-fuers-plakat kommt zuerst. § 60a: in der Klasse und zum Zeigen in deiner Schule. Beim Fall Bäckerei mindestens drei vertretbare Positionen.
 
 ### Content method
 
@@ -176,10 +197,12 @@ wie sie handeln. Welle 1: Kapitel 1 „Ich in der digitalen Welt“ (Klasse 5-6)
 - Recht: Grundsätze für Kinder, „frag einen Erwachsenen“, Stand der Rechtslage auf Seite 2 und in `sources`.
 - Später ein Kapitel anfügen: neuer Ordner, Fall-Szene, UrteilAufgabe mit neuen Gründen, Datenspur ab Kapitel 2.
 
-Code-Aufgaben (einzutragen mit `lernapps plan add`, sobald `init` läuft):
+Code-Aufgaben (mit `lernapps plan add` eingetragen):
 - Muster: `ich/bild-fuers-plakat`, komplett mit Urteilsskala, UrteilAufgabe, plakat-szene.svg, de und en.
 - danach: `das-brauchst-du`; `wem-gehoert-das-bild`; `berufsbesuch` mit Bild; `ki-hausaufgaben` mit Bild und Rückblick.
-<!-- archetype: content-method -->
+<!-- An explainer: per figure, model and component its learning action in two to four sentences
+(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
+page, which a link. -->
 
 ## Code
 
@@ -193,17 +216,28 @@ Code-Aufgaben (einzutragen mit `lernapps plan add`, sobald `init` läuft):
 
 ### Tasks
 
-- [ ] Load skill `lernapps-cli`. Create the app as its section "Create" says:
+- [x] Load skill `lernapps-cli`. Create the app as its section "Create" says:
       `npx --no -- lernapps create --archetype <archetype>`.
-- [ ] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
+- [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-<archetype>`.
-<!-- archetype: code-start -->
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] Load skill `lernapps-<archetype>`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+      `.agents/skills/lernapps-explainer/references/blocks.md` and
+      `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
+      `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
+- [x] Decide whether the app needs `scope`, as "`scope`" in
+      `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
+- [x] Musterseite ich/bild-fuers-plakat bauen (de, en): Szene plakat-szene.svg, Lizenzen und Quellenangabe, Urteilsskala (Anzeige) und UrteilAufgabe mit Logik und Tests, erstes Urteil
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+      Creator: Ja, die anderen Seiten folgen diesem Muster. § 63: Quellenangabe als Regel der App, nicht als gesetzliche Pflicht.
+- [x] Seite ich/das-brauchst-du: Sammel-Wiederholung (informatiksysteme-im-alltag, ki-im-alltag, maschinelles-lernen) mit Trainingsbeutel und einer Übung
+- [x] Seite ich/wem-gehoert-das-bild: Werk, Urheberin, Urheberrecht mit Plakat-Szene und vier Übungen
+- [x] Seite ich/berufsbesuch: drei Gäste (Szene berufsbesuch.svg), Arbeit früher und heute, Urteil Bäckerei-App (mindestens drei vertretbare Stufen)
+- [x] Seite ich/ki-hausaufgaben: Chancen und Risiken der Chat-KI (Szene hausaufgaben.svg), zwei Urteile, Rückblick mit den drei Urteilen des Kapitels
+<!-- tasks: pages (4 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
@@ -221,7 +255,8 @@ Code-Aufgaben (einzutragen mit `lernapps plan add`, sobald `init` läuft):
 
 ### Tasks
 
-<!-- archetype: commit-start -->
+- [ ] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
+      decisions" why the app has none. Commit.
 - [ ] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
 - [ ] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
