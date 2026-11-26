@@ -68,6 +68,7 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
 - Deutsch in einfacher Sprache mit „du“, kurze Sätze. Englisch in Plain English mit „you“.
 - Recht, so für Kinder gesagt:
   - „Die Urheberin entscheidet, was mit ihrem Werk passieren darf.“
+  - Quellenangabe ist eine Regel der App, nicht als gesetzliche Pflicht genannt (§ 63 ungeprüft): „Gib immer die Quelle an, so weiß jeder, von wem das Bild ist.“
   - „In der Klasse und zum Zeigen in deiner Schule“ (en „in class, and to show at your school“) darfst du für den Unterricht ein fremdes Bild nutzen
     (§ 60a Abs. 1 Nr. 1 und 3, Abs. 2 UrhG: Abbildungen ganz). Nicht „im Unterricht“ allein.
   - „Im Internet, auch auf der Schulhomepage“ brauchst du eine Erlaubnis oder eine freie Lizenz.
