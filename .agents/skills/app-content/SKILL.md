@@ -170,7 +170,7 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
    eintragen.
 3. Jede Seite bekommt `competencies: [<id>]`, die Abschnitte oben und Texte als Map `{ de, en }`.
 4. Der Fall des Kapitels endet mit einer `UrteilAufgabe` (Props wie oben). Kapitel 2 führt die Datenspur ein.
-5. 1 bis 3 Übungen in `selfAssessment` des Kapitels aufnehmen (Skill `lernapps-explainer-self-assessment`).
+5. 1 bis 3 ihrer Übungen in `selfAssessment` aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt. Kapitel `ich`: je Seite zwei (keine Wiederholung, keine UrteilAufgabe, weil ihr Fall auf der Seite steht).
 6. `npx vp check --fix`, `npx --no -- lernapps check`, dann committen.
 
 ## Rules learned from mistakes
