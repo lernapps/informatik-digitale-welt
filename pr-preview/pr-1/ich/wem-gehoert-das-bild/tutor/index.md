@@ -45,8 +45,8 @@ Werk, Urheberin und Urheberrecht: Wer etwas selbst geschaffen hat, entscheidet, 
 
 Bild: Links Selin mit einem Tablet, darauf ein Foto von einem See. In der Mitte ein Plakat mit einem leeren Rahmen und einem gemalten Zug. Rechts Mia mit einem Stift. Bildunterschrift: Links Selin, rechts Mia, in der Mitte ihr Plakat für die Klassenfahrt zum Seeberg. Beschriftungen: A Foto aus der Bildersuche, B Mias Zeichnung
 
-Die Klasse 6b fährt zum Seeberg. Selin und Mia machen ein Plakat dazu. Mia hat einen Zug gemalt. Selin
-findet mit der Bildersuche ein schönes Foto vom See. Ein Klick, und es ist auf ihrem Tablet.
+Die Klasse 6b fährt zum Seeberg, einem Berg an einem See. In der 6b sind auch Tom, Lea, Ben und Ali. Selin und Mia machen ein Plakat zur Klassenfahrt. Mia hat einen Zug gemalt. Selin
+findet mit der Bildersuche ein schönes Foto vom See. Ein Klick, und es ist auf ihrem Tablet. Selin und Mia erleben hier einen **Fall**: eine Lage, in der du entscheiden musst, was okay ist.
 
 Auf dieser Seite lernst du, wem ein Bild gehört und was das Urheberrecht schützt.
 
@@ -71,8 +71,7 @@ Werke rund um die Klasse 6b und wer sie geschaffen hat:
 **Auch du bist Urheberin oder Urheber**, wenn du etwas selbst malst, schreibst oder komponierst. Dein
 Alter spielt keine Rolle.
 
-**Was im Internet steht, gehört trotzdem jemandem.** Ansehen darfst du es. Für mehr brauchst du die
-Erlaubnis der Urheberin.
+**Was im Internet steht, gehört trotzdem jemandem.** Ansehen darfst du es. Für mehr brauchst du meistens die Erlaubnis der Urheberin. Für den Unterricht gibt es eine Ausnahme, mehr dazu auf der nächsten Seite.
 
 ### Übung
 
@@ -84,7 +83,7 @@ Erlaubnis der Urheberin.
 
 - Aufgabe `ben-kopiert` (unten)
 
-Das Foto vom See gehört also nicht Selin. Darf sie es trotzdem für das Plakat nehmen? Das klärst du auf der nächsten Seite.
+Das Foto vom See gehört also nicht Selin. Die Bildersuche zeigt Selin noch zwei andere Fotos vom See. Darf sie eines davon für das Plakat nehmen? Das klärst du auf der nächsten Seite.
 
 ### Aufgabe wem-gehoert-das-foto
 
@@ -115,31 +114,31 @@ Das Foto vom See gehört also nicht Selin. Darf sie es trotzdem für das Plakat 
   - ✓ Toms Lied „Seeberg-Blues“ – Tom hat das Lied mit eigenen Ideen geschaffen. Es ist ein Werk der Musik.
   - ✓ ein Computerprogramm für eine Spiele-App – Auch ein Programm ist ein Werk. Die Menschen, die es geschrieben haben, sind seine Urheber.
   - ✗ die Tatsache, dass die Klassenfahrt am Montag beginnt – Eine Tatsache hat niemand mit eigenen Ideen geschaffen. Sie ist kein Werk.
-  - ✗ der Seeberg selbst – Der Berg ist Natur. Ein Foto vom Berg ist aber ein Werk.
+  - ✗ der Seeberg selbst – Der Berg ist Natur. Ein Foto vom Berg ist aber geschützt.
 - Lösung: Toms Lied „Seeberg-Blues“; ein Computerprogramm für eine Spiele-App
 - Erklärung: Ein Werk hat ein Mensch mit eigenen Ideen geschaffen, zum Beispiel ein Lied oder ein Programm. Tatsachen und Natur sind keine Werke.
 - Link: [../?via=tutor#was-ist-ein-werk](../?via=tutor#was-ist-ein-werk)
 
 ### Aufgabe wie-viele-entscheidet-mia
 
-- Aufgabe: Wer darf Mias Bild kopieren? Wer darf es ins Internet stellen? Wer darf es im Schulflur zeigen? Bei wie vielen dieser drei Fragen entscheidet Mia?
+- Aufgabe: Wer darf Mias Bild kopieren? Wer darf es ins Internet stellen? Wer darf es verkaufen? Bei wie vielen dieser drei Fragen entscheidet Mia?
 - Antwortformat: eine Zahl eintippen
 - Lösung: 3
-- Erklärung: Mia entscheidet alle drei Dinge: kopieren, öffentlich zeigen und ins Internet stellen.
+- Erklärung: Mia entscheidet alle drei Dinge: kopieren, ins Internet stellen und verkaufen.
 - Tipp der App: Lies noch einmal, was die Urheberin entscheidet.
 - Typische Fehler und was die App sagt:
-  - 2: Schau noch einmal auf die Erklärung „Urheberrecht“. Kopieren, öffentlich zeigen und ins Internet stellen gehören alle dazu.
+  - 2: Schau noch einmal auf die Erklärung „Urheberrecht“. Kopieren, weitergeben und ins Internet stellen gehören alle dazu.
   - 0: Mia hat das Bild geschaffen. Darum entscheidet sie über ihr Werk, auch wenn sie erst 11 ist.
 - Link: [../?via=tutor#wie-viele-entscheidet-mia](../?via=tutor#wie-viele-entscheidet-mia)
 
 ### Aufgabe ben-kopiert
 
-- Aufgabe: Ben findet Mias Zug toll. Ben kopiert ihn und hängt die Kopie mit Bens Namen in der 6c auf. Was ist daran falsch?
+- Aufgabe: Ben findet Mias Zug toll. Ben kopiert ihn und hängt die Kopie mit Bens Namen im Klassenzimmer auf. Was ist daran falsch?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Mia hat es nicht erlaubt und wird nicht genannt. – Mia ist die Urheberin. Sie entscheidet über ihr Bild, und es ist ihr Werk, nicht Bens.
   - ✗ Nichts, weil Ben es nicht verkauft. – Auch ohne Verkauf entscheidet Mia, wer ihr Bild kopiert und zeigt.
   - ✗ Nichts, weil Kinder keine Urheber sind. – Auch Kinder sind Urheber. Das Alter spielt keine Rolle.
 - Lösung: Mia hat es nicht erlaubt und wird nicht genannt.
-- Erklärung: Wer ein fremdes Werk kopiert und zeigt, braucht die Erlaubnis der Urheberin.
+- Erklärung: Wer ein fremdes Werk kopiert und als eigenes zeigt, handelt gegen das Recht der Urheberin. Ben müsste Mia fragen und Mia nennen.
 - Link: [../?via=tutor#ben-kopiert](../?via=tutor#ben-kopiert)

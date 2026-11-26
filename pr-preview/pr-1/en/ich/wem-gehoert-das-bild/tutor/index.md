@@ -45,8 +45,8 @@ Work, creator and copyright: whoever made something decides what may happen to i
 
 Picture: On the left Selin with a tablet showing a photo of a lake. In the middle a poster with an empty frame and a painted train. On the right Mia with a pen. Caption: Selin on the left, Mia on the right, and in the middle their poster for the class trip to the Seeberg. Labels: A photo from a picture search, B Mia's drawing
 
-Class 6b is going on a trip to the Seeberg. Selin and Mia are making a poster about it. Mia has painted a
-train. Selin finds a nice photo of the lake with a picture search. One click, and it is on her tablet.
+Class 6b is going on a trip to the Seeberg, a hill by a lake (“See” means lake, “Berg” means hill). Tom, Lea, Ben and Ali are in class 6b too. Selin and Mia are making a poster about the trip. Mia has painted a
+train. Selin finds a nice photo of the lake with a picture search. One click, and it is on her tablet. Selin and Mia are in a **case**: a situation where you have to decide what is okay.
 
 On this page you learn who a picture belongs to and what copyright protects.
 
@@ -71,8 +71,7 @@ Works around class 6b and who made them:
 **You are a creator too** when you paint, write or compose something yourself. Your age does not
 matter.
 
-**What is on the internet still belongs to someone.** You may look at it. For more, you need the
-creator's permission.
+**What is on the internet still belongs to someone.** You may look at it. For more, you usually need the creator's permission. There is an exception for lessons; more on the next page.
 
 ### Practice
 
@@ -84,7 +83,7 @@ creator's permission.
 
 - Exercise `ben-kopiert` (below)
 
-So the photo of the lake does not belong to Selin. May she still use it for the poster? You find out on the next page.
+So the photo of the lake does not belong to Selin. The picture search shows Selin two more photos of the lake. May she use one of them for the poster? You find out on the next page.
 
 ### Exercise wem-gehoert-das-foto
 
@@ -115,31 +114,31 @@ So the photo of the lake does not belong to Selin. May she still use it for the 
   - ✓ Tom's song “Seeberg Blues” – Tom made the song with Tom's own ideas. It is a work of music.
   - ✓ a computer program for a game app – A program is a work too. The people who wrote it are its creators.
   - ✗ the fact that the class trip starts on Monday – Nobody made a fact with their own ideas. It is not a work.
-  - ✗ the Seeberg itself – The mountain is nature. But a photo of the mountain is a work.
+  - ✗ the Seeberg itself – The mountain is nature. But a photo of the mountain is protected.
 - Solution: Tom's song “Seeberg Blues”; a computer program for a game app
 - Explanation: A person made a work with their own ideas, for example a song or a program. Facts and nature are not works.
 - Link: [../?via=tutor#was-ist-ein-werk](../?via=tutor#was-ist-ein-werk)
 
 ### Exercise wie-viele-entscheidet-mia
 
-- Task: Who may copy Mia's picture? Who may put it online? Who may show it in the school corridor? For how many of these three questions does Mia decide?
+- Task: Who may copy Mia's picture? Who may put it online? Who may sell it? For how many of these three questions does Mia decide?
 - Answer format: type a number
 - Solution: 3
-- Explanation: Mia decides all three things: copying, showing in public and putting online.
+- Explanation: Mia decides all three things: copying, putting online and selling.
 - The app's hint: Read again what the creator decides.
 - Typical mistakes and what the app says:
-  - 2: Look again at the explanation “copyright”. Copying, showing in public and putting online all belong to it.
+  - 2: Look again at the explanation “copyright”. Copying, passing on and putting online all belong to it.
   - 0: Mia made the picture. So she decides about her work, even though she is only 11.
 - Link: [../?via=tutor#wie-viele-entscheidet-mia](../?via=tutor#wie-viele-entscheidet-mia)
 
 ### Exercise ben-kopiert
 
-- Task: Ben loves Mia's train. Ben copies it and puts up the copy with Ben's name on it in class 6c. What is wrong with that?
+- Task: Ben loves Mia's train. Ben copies it and puts up the copy with Ben's name on it in the classroom. What is wrong with that?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
   - ✓ Mia has not allowed it and is not named. – Mia is the creator. She decides about her picture, and it is her work, not Ben's.
   - ✗ Nothing, because Ben does not sell it. – Even without a sale, Mia decides who copies and shows her picture.
   - ✗ Nothing, because children are not creators. – Children are creators too. Age does not matter.
 - Solution: Mia has not allowed it and is not named.
-- Explanation: Whoever copies and shows someone else's work needs the creator's permission.
+- Explanation: Whoever copies someone else's work and shows it as their own goes against the creator's right. Ben would have to ask Mia and name Mia.
 - Link: [../?via=tutor#ben-kopiert](../?via=tutor#ben-kopiert)
