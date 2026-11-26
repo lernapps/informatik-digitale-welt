@@ -83,7 +83,7 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
 - Deutsch in einfacher Sprache mit „du“, kurze Sätze. Englisch in Plain English mit „you“.
 - Recht, so für Kinder gesagt:
   - „Die Urheberin entscheidet, was mit ihrem Werk passieren darf.“
-  - Quellenangabe ist eine Regel der App, nicht als gesetzliche Pflicht genannt (§ 63 ungeprüft): „Gib immer die Quelle an, so weiß jeder, von wem das Bild ist.“
+  - Quellenangabe in der Klasse ist gesetzliche Pflicht (§ 63 Abs. 1 und 2 UrhG: bei § 60a „stets die Quelle deutlich anzugeben“, bei öffentlicher Wiedergabe mit dem Namen des Urhebers): „Es verlangt, dass du die Quelle mit dem Namen der Urheberin angibst.“
   - „In der Klasse und zum Zeigen in deiner Schule“ (en „in class, and to show at your school“) darfst du für den Unterricht ein fremdes Bild nutzen
     (§ 60a Abs. 1 Nr. 1 und 3, Abs. 2 UrhG: Abbildungen ganz). Nicht „im Unterricht“ allein.
   - „Im Internet, auch auf der Schulhomepage“ brauchst du eine Erlaubnis oder eine freie Lizenz.
@@ -147,9 +147,10 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
 ## Sources
 
 - Gesetz über Urheberrecht und verwandte Schutzrechte (UrhG), https://www.gesetze-im-internet.de/urhg/, gelesen
-  2026-11-26: § 2 (geschützte Werke), § 15 (Verwertungsrechte), § 53 (Privatkopie), § 60a (Unterricht und Lehre).
-  Nicht gelesen (Server 503): §§ 51, 63, 64, 72 und die Zeile „Stand“; die Seiten nennen die Paragrafen nicht, bis
-  sie geprüft sind.
+  2026-11-26: § 2 (geschützte Werke), § 15 (Verwertungsrechte), § 51 (Zitate), § 53 (Privatkopie), § 60a (Unterricht
+  und Lehre), § 63 (Quellenangabe), § 64 (70 Jahre nach dem Tod), § 72 (Lichtbilder, 50 Jahre). Stand: zuletzt
+  geändert durch Art. 2 G v. 26.5.2026 (BGBl. 2026 I Nr. 157); steht in `src/app.yaml` unter `sources`. Bei einem
+  neuen Kapitel den Stand neu lesen und dort ändern.
 - Creative Commons, gelesen 2026-11-26: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/deed.de), CC0
   (https://creativecommons.org/publicdomain/zero/1.0/deed.de), die sechs Lizenzen
   (https://creativecommons.org/share-your-work/cclicenses/), Empfehlung TASL
@@ -184,4 +185,4 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
 - Geschmack („schön“, „cool“, „mag die Farbe nicht“) zählt nie; ein Wunsch der Beteiligten („Die Klasse wünscht
   sich …“) zählt dafür, wiegt aber wenig. Beispiel und Aufgaben müssen das gleich behandeln (Fachprüfung).
 - Nicht „für alles brauchst du Erlaubnis“ schreiben: Die Ausnahme für den Unterricht (§ 60a) gilt auch für Seite 2.
-- Ein Foto ist „geschützt“; nicht jedes Foto ist ein Werk im Sinn von § 2 (einfache Lichtbilder: § 72, ungeprüft).
+- Ein Foto ist „geschützt“; nicht jedes Foto ist ein Werk im Sinn von § 2, einfache Fotos schützt § 72 als Lichtbilder.
