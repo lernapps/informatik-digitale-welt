@@ -130,8 +130,55 @@ wie sie handeln. Welle 1: Kapitel 1 „Ich in der digitalen Welt“ (Klasse 5-6)
 
 ### Content method
 
-<!-- One line each: the patterns and where; the figures and how they are made; the data files; each component, what it
-checks and what it cannot; how a later agent adds a chapter. It becomes the content guide in Code. -->
+- Kapitel `ich` (5-6), Seiten in dieser Reihenfolge (Skizze `.vibe/sketches/seiten.md`):
+  0. `das-brauchst-du`: recap informatiksysteme-im-alltag, ki-im-alltag, maschinelles-lernen; eine Übung.
+  1. `wem-gehoert-das-bild` (urheberrecht): Werk, Urheberin, Urheberrecht. Fall 1 Teil 1.
+  2. `bild-fuers-plakat` (urheberrecht): Erlaubnis, freie Lizenz, Quellenangabe, in der Klasse und im Internet.
+     Die Urteilsskala wird eingeführt, erstes Urteil.
+  3. `berufsbesuch` (informatik-in-alltag-und-beruf): Fall 2, Urteil.
+  4. `ki-hausaufgaben` (ki-chancen-und-risiken): Fall 3, zwei Urteile, Rückblick über das Kapitel.
+- Engagement je Seite:
+  - Einstieg: eine Szene der 6b und eine leichte Frage vor der Erklärung.
+  - Wechsel: Bild → Frage → kurze Erklärung mit Tabelle → Übungen → Urteil.
+  - Belohnung: ein eigenes Urteil auf der Skala. Der Rückblick zeigt alle drei Urteile.
+  - Geschichte: die drei Fälle der 6b. Jede Seite kündigt die nächste an.
+- Muster:
+  - Zuordnen (matching): Werk → Art, Lizenz → was du tun musst, Gast → Veränderung, Beispiel → Chance/Risiko.
+  - Erkennen (multiple-choice): eine Fehlvorstellung als Option, mit `info`.
+  - Urteilen (true-false): eine Fehlvorstellung als Satz, der Grund steht in `explanation`.
+  - Erklären (single-choice): plausible falsche Optionen, je mit Grund.
+  - Urteil (Komponente `UrteilAufgabe`): Gründe einordnen und Position wählen.
+- Komponenten. Kein Block kann Position und Gründe zusammen prüfen, darum eigene Komponenten:
+  - `Urteilsskala` (Anzeige):
+    - eine Leiste mit fünf Stufen 1–5, Ziegel #b5473a → Ocker #c9a23a → Blaugrün #2e7d6b, jede Stufe mit Zahl und
+      Wort (Props);
+    - optional ein Zeiger auf einer Stufe und die Gründe „dafür“ und „dagegen“ in zwei Spalten;
+    - `nojs`: die Stufen und Gründe als Liste.
+  - `UrteilAufgabe` (Übung), Logik in `Urteil.ts`:
+    - Je Grund drei Knöpfe: „zählt dafür“, „zählt dagegen“, „zählt nicht“. Dazu die Position auf der Skala.
+    - `check`: Jeder Grund ist richtig eingeordnet, und die Position ist eine der vertretbaren (`erlaubt`, je Fall).
+    - `reason`: nennt jeden falsch eingeordneten Grund mit seinem `warum`. Bei einer Position außerhalb sagt sie,
+      warum diese nicht zu den Gründen passt.
+    - Je Fall ein fester Auftrag. Der Seed mischt nur die Reihenfolge der Gründe.
+    - Was sie nicht kann: eigene Gründe der Kinder prüfen. Dafür steht auf der Seite: „Erklär dein Urteil jemandem
+      neben dir.“
+  - Beide Komponenten tragen Kapitel 2–4 mit anderen Props.
+- Datenspur (ab Kapitel 2, nicht in Welle 1): Komponente `Datenspur`, Skizze `.vibe/sketches/datenspur.svg`.
+  - Fußabdrücke mit je einer Angabe, Farbe und Form je Art.
+  - Neue Angaben gestrichelt, eine Zählung „bekannt: n Angaben“.
+- Bilder: eigene SVGs ohne Text, CC-BY-4.0, Kinder aus `klasse-6b.svg` (informatik-computer), Trainingsbeutel aus
+  `beutel-szene.svg` (informatik-ki), je mit Herkunft im Dateikopf. Marker und Texte über `labelled-figure`.
+  - `plakat-szene.svg` (Seiten 1 und 2)
+  - `berufsbesuch.svg`
+  - `hausaufgaben.svg`
+- Keine Datendatei nötig. Die Gründe stehen als Props im Block.
+- Voraussetzungen von außen: nur über die Sammel-Wiederholung. Keine Links nötig.
+- Recht: Grundsätze für Kinder, „frag einen Erwachsenen“, Stand der Rechtslage auf Seite 2 und in `sources`.
+- Später ein Kapitel anfügen: neuer Ordner, Fall-Szene, UrteilAufgabe mit neuen Gründen, Datenspur ab Kapitel 2.
+
+Code-Aufgaben (einzutragen mit `lernapps plan add`, sobald `init` läuft):
+- Muster: `ich/bild-fuers-plakat`, komplett mit Urteilsskala, UrteilAufgabe, plakat-szene.svg, de und en.
+- danach: `das-brauchst-du`; `wem-gehoert-das-bild`; `berufsbesuch` mit Bild; `ki-hausaufgaben` mit Bild und Rückblick.
 <!-- archetype: content-method -->
 
 ## Code

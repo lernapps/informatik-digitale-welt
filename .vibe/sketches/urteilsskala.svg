@@ -1,0 +1,33 @@
+<!-- Skizze der Urteilsskala (Komponenten Urteilsskala und UrteilAufgabe). Texte kommen in der App als Props. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="sans-serif" font-size="14">
+  <rect width="720" height="420" fill="#fbf8f1"/>
+  <text x="20" y="30" font-weight="bold">Fall: Selin stellt das Plakat mit dem fremden Foto auf die Schulhomepage.</text>
+  <!-- Skala: 5 Stufen, Farbverlauf Ziegel -> Blaugrün, jede Stufe mit Zahl und Form -->
+  <defs><linearGradient id="g"><stop offset="0" stop-color="#b5473a"/><stop offset="0.5" stop-color="#c9a23a"/><stop offset="1" stop-color="#2e7d6b"/></linearGradient></defs>
+  <rect x="60" y="70" width="600" height="16" rx="8" fill="url(#g)"/>
+  <g stroke="#333" stroke-width="2" fill="#fff">
+    <circle cx="60" cy="78" r="16"/><circle cx="210" cy="78" r="16"/><circle cx="360" cy="78" r="16"/><circle cx="510" cy="78" r="16"/><circle cx="660" cy="78" r="16"/>
+  </g>
+  <g text-anchor="middle" font-weight="bold"><text x="60" y="83">1</text><text x="210" y="83">2</text><text x="360" y="83">3</text><text x="510" y="83">4</text><text x="660" y="83">5</text></g>
+  <g text-anchor="middle" font-size="12"><text x="60" y="115">geht nicht</text><text x="210" y="115">eher nicht</text><text x="360" y="115">kommt darauf an</text><text x="510" y="115">eher okay</text><text x="660" y="115">ist okay</text></g>
+  <!-- Zeiger: gewaehlte Position -->
+  <path d="M210 44 l-10 -16 h20 z" fill="#333"/><text x="210" y="22" text-anchor="middle" font-size="12">Dein Urteil</text>
+  <!-- Gruende: je ein Kaertchen mit drei Knoepfen -->
+  <g font-size="13">
+    <rect x="20" y="150" width="680" height="54" rx="6" fill="#fff" stroke="#999"/>
+    <text x="32" y="172">„Die Fotografin hat nicht erlaubt, dass ihr Foto ins Internet kommt.“</text>
+    <rect x="32" y="180" width="120" height="18" rx="4" fill="#2e7d6b" opacity="0.2" stroke="#333"/><text x="40" y="194">zählt dafür</text>
+    <rect x="162" y="180" width="130" height="18" rx="4" fill="#b5473a" stroke="#333"/><text x="170" y="194" fill="#fff">zählt dagegen ✓</text>
+    <rect x="302" y="180" width="120" height="18" rx="4" fill="#ddd" stroke="#333"/><text x="310" y="194">zählt nicht</text>
+    <rect x="20" y="214" width="680" height="54" rx="6" fill="#fff" stroke="#999"/>
+    <text x="32" y="236">„Das machen doch alle so.“</text>
+    <rect x="32" y="244" width="120" height="18" rx="4" fill="#fff" stroke="#333"/><text x="40" y="258">zählt dafür</text>
+    <rect x="162" y="244" width="130" height="18" rx="4" fill="#fff" stroke="#333"/><text x="170" y="258">zählt dagegen</text>
+    <rect x="302" y="244" width="120" height="18" rx="4" fill="#666" stroke="#333"/><text x="310" y="258" fill="#fff">zählt nicht ✓</text>
+    <rect x="20" y="278" width="680" height="54" rx="6" fill="#fff" stroke="#999"/>
+    <text x="32" y="300">„Mit Foto sieht das Plakat schöner aus.“  (zählt dafür, ist aber schwach)</text>
+  </g>
+  <text x="20" y="360" font-size="13">Prüfen: Jeder Grund richtig eingeordnet? Position eine der vertretbaren (hier 1 oder 2, das Recht legt es fest)?</text>
+  <text x="20" y="380" font-size="13">Rückmeldung je falsch eingeordnetem Grund: warum er (nicht) zählt. Position außerhalb: warum sie nicht zu den Gründen passt.</text>
+  <text x="20" y="400" font-size="13">Anzeige-Variante (ohne Aufgabe): gleiche Skala, Zeiger fest, Gründe in zwei Spalten „dafür“ / „dagegen“ (Rückblick).</text>
+</svg>
