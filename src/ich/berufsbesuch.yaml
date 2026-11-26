@@ -61,8 +61,8 @@ blocks:
               de: Die Mütze schützt das Essen vor Haaren. Ein Computer ist darin nicht.
               en: The hat keeps hair out of the food. There is no computer in it.
         explanation:
-          de: Ein Informatiksystem rechnet, zählt oder merkt sich etwas. Das tut die Kasse.
-          en: A computer system calculates, counts or remembers something. The till does that.
+          de: In der Kasse arbeitet ein Computer nach Programmen. Darum ist sie ein Informatiksystem.
+          en: A computer inside the till works by following programs. That makes it a computer system.
   - type: section
     id: idee
     title:
@@ -81,8 +81,8 @@ blocks:
         rows:
           - - { de: Herr Kaya, en: Mr Kaya }
             - {
-                de: "Preise im Kopf rechnen, Bestellungen auf Zetteln",
-                en: "adding up prices in his head, orders on slips of paper",
+                de: "Er rechnete Preise im Kopf, Bestellungen standen auf Zetteln.",
+                en: "He added up prices in his head; orders were on slips of paper.",
               }
             - {
                 de: "Die Kasse rechnet den Preis aus. Bestellungen kommen auch per App.",
@@ -90,8 +90,8 @@ blocks:
               }
           - - { de: Frau Schulte, en: Ms Schulte }
             - {
-                de: "Frau Schulte melkt jede Kuh mit der Melkmaschine.",
-                en: "Ms Schulte milks every cow with the milking machine.",
+                de: "Frau Schulte melkte jede Kuh selbst, mit der Melkmaschine.",
+                en: "Ms Schulte milked every cow herself, with the milking machine.",
               }
             - {
                 de: "Ein Melkroboter melkt die Kühe ganz von selbst. Frau Schulte schaut jeden Tag nach den Tieren.",
@@ -113,7 +113,7 @@ blocks:
 
             - Manches geht **schneller oder leichter**, etwa das Rechnen an der Kasse.
             - Es gibt **neue Berufe**, etwa Informatikerin.
-            - Manche **Aufgaben fallen weg**, etwa das Melken von Hand an jeder Kuh.
+            - Manche **Aufgaben fallen weg**, etwa dass Frau Schulte jede Kuh selbst melkt.
             - Die Menschen müssen **Neues lernen**, etwa wie der Melkroboter funktioniert.
 
             Auch dein Alltag ändert sich: Du kaufst ein, bestellst oder fährst Bus mit einer App.
@@ -122,7 +122,7 @@ blocks:
 
             - Some things get **faster or easier**, such as adding up at the till.
             - There are **new jobs**, such as computer scientist.
-            - Some **tasks disappear**, such as milking each cow by hand.
+            - Some **tasks disappear**, such as Ms Schulte milking each cow herself.
             - People have to **learn new things**, such as how the milking robot works.
 
             Your everyday life changes too: you shop, order or take the bus with an app.
@@ -176,8 +176,8 @@ blocks:
           - { de: Herr Kaya packt die Brötchen ein., en: Mr Kaya packs the bread rolls. }
           - { de: Die Kundin holt die Brötchen ab., en: The customer collects the bread rolls. }
         hint:
-          de: "Denk an Eingabe, Verarbeitung und Ausgabe: Was muss zuerst passieren, damit Herr Kaya etwas sieht?"
-          en: "Think of input, process and output: what has to happen first so that Mr Kaya sees something?"
+          de: "Was muss zuerst passieren, damit Herr Kaya etwas auf dem Bildschirm sieht?"
+          en: "What has to happen first so that Mr Kaya sees something on the screen?"
         explanation:
           de: Erst gibt die Kundin die Bestellung ein, dann schickt die App sie weiter, und die Bäckerei zeigt sie an. Erst danach packt ein Mensch die Brötchen.
           en: First the customer enters the order, then the app sends it on and the bakery shows it. Only then does a person pack the rolls.
@@ -211,8 +211,8 @@ blocks:
             - { de: ist okay, en: okay }
           gruende:
             - text:
-                de: Herr Kaya muss keine Zettel mehr lesen und vergisst keine Bestellung.
-                en: Mr Kaya no longer has to read slips of paper and forgets no order.
+                de: Herr Kaya muss keine Zettel mehr lesen und vergisst seltener eine Bestellung.
+                en: Mr Kaya no longer has to read slips of paper and forgets orders less often.
               zaehlt: dafuer
               warum:
                 de: Was wird für Herrn Kaya leichter, wenn die Bestellungen in der App ankommen?

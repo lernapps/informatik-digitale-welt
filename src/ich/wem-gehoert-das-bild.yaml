@@ -111,14 +111,12 @@ blocks:
                 **Auch du bist Urheberin oder Urheber**, wenn du etwas selbst malst, schreibst oder komponierst. Dein
                 Alter spielt keine Rolle.
 
-                **Was im Internet steht, gehört trotzdem jemandem.** Ansehen darfst du es. Für mehr brauchst du die
-                Erlaubnis der Urheberin.
+                **Was im Internet steht, gehört trotzdem jemandem.** Ansehen darfst du es. Für mehr brauchst du meistens die Erlaubnis der Urheberin. Für den Unterricht gibt es eine Ausnahme, mehr dazu auf der nächsten Seite.
               en: |
                 **You are a creator too** when you paint, write or compose something yourself. Your age does not
                 matter.
 
-                **What is on the internet still belongs to someone.** You may look at it. For more, you need the
-                creator's permission.
+                **What is on the internet still belongs to someone.** You may look at it. For more, you usually need the creator's permission. There is an exception for lessons; more on the next page.
   - type: section
     id: uebung
     title:
@@ -177,23 +175,23 @@ blocks:
           - text: { de: der Seeberg selbst, en: the Seeberg itself }
             correct: false
             info:
-              de: Der Berg ist Natur. Ein Foto vom Berg ist aber ein Werk.
-              en: The mountain is nature. But a photo of the mountain is a work.
+              de: Der Berg ist Natur. Ein Foto vom Berg ist aber geschützt.
+              en: The mountain is nature. But a photo of the mountain is protected.
         explanation:
           de: Ein Werk hat ein Mensch mit eigenen Ideen geschaffen, zum Beispiel ein Lied oder ein Programm. Tatsachen und Natur sind keine Werke.
           en: A person made a work with their own ideas, for example a song or a program. Facts and nature are not works.
       - type: number
         id: wie-viele-entscheidet-mia
         text:
-          de: "Wer darf Mias Bild kopieren? Wer darf es ins Internet stellen? Wer darf es im Schulflur zeigen? Bei wie vielen dieser drei Fragen entscheidet Mia?"
-          en: "Who may copy Mia's picture? Who may put it online? Who may show it in the school corridor? For how many of these three questions does Mia decide?"
+          de: "Wer darf Mias Bild kopieren? Wer darf es ins Internet stellen? Wer darf es verkaufen? Bei wie vielen dieser drei Fragen entscheidet Mia?"
+          en: "Who may copy Mia's picture? Who may put it online? Who may sell it? For how many of these three questions does Mia decide?"
         answer: 3
         tolerance: 0
         mistakes:
           - answer: 2
             message:
-              de: Schau noch einmal auf die Erklärung „Urheberrecht“. Kopieren, öffentlich zeigen und ins Internet stellen gehören alle dazu.
-              en: Look again at the explanation “copyright”. Copying, showing in public and putting online all belong to it.
+              de: Schau noch einmal auf die Erklärung „Urheberrecht“. Kopieren, weitergeben und ins Internet stellen gehören alle dazu.
+              en: Look again at the explanation “copyright”. Copying, passing on and putting online all belong to it.
           - answer: 0
             message:
               de: Mia hat das Bild geschaffen. Darum entscheidet sie über ihr Werk, auch wenn sie erst 11 ist.
@@ -202,8 +200,8 @@ blocks:
           de: Lies noch einmal, was die Urheberin entscheidet.
           en: Read again what the creator decides.
         explanation:
-          de: "Mia entscheidet alle drei Dinge: kopieren, öffentlich zeigen und ins Internet stellen."
-          en: "Mia decides all three things: copying, showing in public and putting online."
+          de: "Mia entscheidet alle drei Dinge: kopieren, ins Internet stellen und verkaufen."
+          en: "Mia decides all three things: copying, putting online and selling."
       - type: single-choice
         id: ben-kopiert
         text:
@@ -226,8 +224,8 @@ blocks:
               de: Auch Kinder sind Urheber. Das Alter spielt keine Rolle.
               en: Children are creators too. Age does not matter.
         explanation:
-          de: Wer ein fremdes Werk kopiert und zeigt, braucht die Erlaubnis der Urheberin.
-          en: Whoever copies and shows someone else's work needs the creator's permission.
+          de: Wer ein fremdes Werk kopiert und als eigenes zeigt, handelt gegen das Recht der Urheberin. Ben müsste Mia fragen und Mia nennen.
+          en: Whoever copies someone else's work and shows it as their own goes against the creator's right. Ben would have to ask Mia and name Mia.
       - type: text
         text:
           de: "Das Foto vom See gehört also nicht Selin. Darf sie es trotzdem für das Plakat nehmen? Das klärst du auf der nächsten Seite."

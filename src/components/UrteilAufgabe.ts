@@ -196,8 +196,8 @@ export const about = {
     en: "One choice per reason and one step of the scale. Several steps can be right.",
   },
   correct: {
-    de: "Richtig, wenn jeder Grund so eingeordnet ist, wie er zählt, und die Stufe zu den Gründen passt. Wo das Recht den Fall entscheidet, passen nur wenige Stufen.",
-    en: "Right if every reason is sorted the way it counts and the step fits the reasons. Where the law decides the case, only a few steps fit.",
+    de: "Richtig, wenn jeder Grund so eingeordnet ist, wie er zählt, und die Stufe zu den Gründen passt. Wo das Recht oder die Ehrlichkeit den Fall entscheidet, passen nur wenige Stufen.",
+    en: "Right if every reason is sorted the way it counts and the step fits the reasons. Where the law or honesty decides the case, only a few steps fit.",
   },
   mistakes: [
     {

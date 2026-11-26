@@ -59,8 +59,8 @@ blocks:
           - text: { de: fast nichts, en: almost nothing }
             correct: true
             info:
-              de: Die KI hat gelesen, nachgedacht und geschrieben. Jona hat nur die Aufgabe eingetippt.
-              en: The AI did the reading, thinking and writing. Jona only typed in the task.
+              de: Die KI hat den Text erzeugt. Jona hat nur die Aufgabe eingetippt.
+              en: The AI produced the text. Jona only typed in the task.
           - text: { de: "alles, was im Text steht", en: "everything that is in the text" }
             correct: false
             info:
@@ -142,7 +142,7 @@ blocks:
             right: { de: im Buch nachprüfen, en: check it in the book }
           - left: { de: Jona versteht ein Wort nicht., en: Jona does not understand a word. }
             right: { de: sich das Wort erklären lassen, en: ask for the word to be explained }
-          - left: { de: Die KI fragt nach Jonas Adresse., en: The AI asks for Jona's address. }
+          - left: { de: Jona will der KI schreiben, wo Jona wohnt., en: Jona wants to tell the AI where Jona lives. }
             right: { de: nichts Persönliches eintippen, en: type in nothing personal }
           - left: { de: Jona will die KI für den ganzen Text nutzen., en: Jona wants to use the AI for the whole text. }
             right: { de: "erst fragen, was die Schule erlaubt", en: "first ask what the school allows" }
@@ -161,11 +161,11 @@ blocks:
           en: "Ben says: “What a chat AI writes is always true. It has read so many texts.”"
         answer: false
         hint:
-          de: "Denk an den Trainingsbeutel: Was in den Beutel kommt, bestimmt, was herauskommt."
-          en: "Think of the training bag: what goes into the bag decides what comes out."
+          de: "Weiß eine KI, was wahr ist, oder findet sie Muster?"
+          en: "Does an AI know what is true, or does it find patterns?"
         explanation:
-          de: Eine Chat-KI findet Muster, sie weiß nicht, was wahr ist. Darum kann sie Falsches schreiben, das sicher klingt. Waren ihre Beispiele falsch oder einseitig, sind es ihre Antworten auch.
-          en: A chat AI finds patterns; it does not know what is true. So it can write wrong things that sound sure. If its examples were wrong or one-sided, its answers are too.
+          de: Eine Chat-KI findet Muster, sie weiß nicht, was wahr ist. Darum kann sie Falsches schreiben, das sicher klingt. Auch einseitige Beispiele können zu einseitigen Antworten führen.
+          en: A chat AI finds patterns; it does not know what is true. So it can write wrong things that sound sure. One-sided examples can also lead to one-sided answers.
       - type: vue-component
         component: UrteilAufgabe
         props:
@@ -198,8 +198,8 @@ blocks:
                 en: It is much faster.
               zaehlt: dafuer
               warum:
-                de: Zeit sparen ist ein echter Vorteil. Ein Grund kann zählen und trotzdem wenig wiegen.
-                en: Saving time is a real advantage. A reason can count and still weigh little.
+                de: Ist Zeit sparen ein Vorteil für Jona, auch wenn er wenig wiegt?
+                en: Is saving time an advantage for Jona, even if it weighs little?
             - text:
                 de: Ali hat das auch schon gemacht.
                 en: Ali has done it too.
@@ -214,8 +214,8 @@ blocks:
           dagegen: { de: zählt dagegen, en: counts against }
           nicht: { de: zählt nicht, en: does not count }
           positionFalsch:
-            de: "Die Gründe stimmen. Stufe {stufe} „{wort}“ passt aber nicht dazu: Jona lernt nichts und gibt einen fremden Text als eigenen aus. Wiegt Zeit sparen das auf?"
-            en: "The reasons are right. But step {stufe} “{wort}” does not fit them: Jona learns nothing and passes off a text that is not Jona's own. Does saving time make up for that?"
+            de: "Die Gründe stimmen. Stufe {stufe} „{wort}“ passt aber nicht dazu: Jona lernt fast nichts und gibt einen fremden Text als eigenen aus. Wiegt Zeit sparen das auf?"
+            en: "The reasons are right. But step {stufe} “{wort}” does not fit them: Jona learns almost nothing and passes off a text that is not Jona's own. Does saving time make up for that?"
           fehltGrund: { de: Ordne noch jeden Grund ein., en: Sort every reason first. }
           fehltStufe: { de: Wähle noch eine Stufe auf der Skala., en: Choose a step on the scale first. }
         examples:
@@ -257,8 +257,8 @@ blocks:
                 en: The AI can be wrong in its explanation too.
               zaehlt: dagegen
               warum:
-                de: Ein Risiko bleibt, auch wenn Jona im Buch prüft. Es wiegt hier aber wenig.
-                en: A risk remains, even if Jona checks in the book. But here it weighs little.
+                de: Kann eine Erklärung falsch sein, auch wenn Jona sie danach prüft?
+                en: Can an explanation be wrong, even if Jona checks it afterwards?
             - text:
                 de: Chat-KIs sind cool.
                 en: Chat AIs are cool.
@@ -313,9 +313,15 @@ blocks:
                 de: "für wen es leichter und für wen es schwerer wird",
                 en: "who it gets easier for and who it gets harder for",
               }
-          - - { de: "3: KI-Text als eigenen abgeben", en: "3: handing in an AI text as your own" }
+          - - { de: "3a: KI-Text als eigenen abgeben", en: "3a: handing in an AI text as your own" }
             - { de: "1 bis 2", en: "1 to 2" }
-            - { de: "was du dabei lernst, was die Schule erlaubt", en: "what you learn, what the school allows" }
+            - { de: "was du dabei lernst, und ehrlich sein", en: "what you learn, and being honest" }
+          - - {
+                de: "3b: sich erklären lassen und prüfen, erlaubt",
+                en: "3b: getting an explanation and checking it, allowed",
+              }
+            - { de: "3 bis 5", en: "3 to 5" }
+            - { de: "du lernst selbst, die Schule erlaubt es", en: "you learn yourself, the school allows it" }
       - type: text
         text:
           de: |

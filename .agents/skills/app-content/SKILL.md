@@ -114,8 +114,8 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
     `erlaubt` (vertretbare Stufen), Texte `gruendeTitel`, `skalaTitel`, `dafuer`, `dagegen`, `nicht`,
     `positionFalsch` (mit `{stufe}` und `{wort}`), `fehltGrund`, `fehltStufe`.
   - Richtig: jeder Grund wie `zaehlt` eingeordnet und die Stufe in `erlaubt`. Rückmeldung: jeder falsch
-    eingeordnete Grund mit seinem `warum`; danach eine Stufe außerhalb mit `positionFalsch`.
-  - `erlaubt`: wo das Recht entscheidet, nur [1, 2]; wo mehrere Urteile vertretbar sind, mindestens drei Stufen
+    eingeordnete Grund mit seinem `warum`; danach eine Stufe außerhalb mit `positionFalsch`.  - `erlaubt`: wo das Recht oder die Ehrlichkeit entscheidet (Fall 1, Fall 3a: fremden Text als eigenen
+    abgeben), nur [1, 2]; wo mehrere Urteile vertretbar sind, mindestens drei Stufen
     (Orchestrator). Jeder Fall hat mindestens einen Grund, der nicht zählt.
   - Der Seed mischt nur die Reihenfolge der Gründe; Seed 1 ist die Reihenfolge der Seite.
   - `examples`: mindestens zwei akzeptierte (zwei erlaubte Stufen) und zwei abgelehnte.
@@ -157,7 +157,8 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
 - KI-Fakten aus `lernapps/informatik-ki` (#493), Branch `work`.
 - klicksafe, gelesen 2026-11-26: „Wie verlässlich ist ChatGPT?“ (Antworten nicht per se fehlerfrei, kaum von
   menschlichen zu unterscheiden) und „Risiken durch KI-Systeme“ (so gut wie die Trainingsdaten). „Nichts
-  Persönliches eintippen“ ist eine Regel der App, ohne Quelle.
+  Persönliches eintippen“ ist eine Regel der App, ohne Quelle. Die Chancen (erklärt Wörter, stellt Übungsfragen,
+  übersetzt) sind allgemeines Wissen, ohne eigene Quelle.
 - landwirtschaft.de (BZL), „Wie werden Milchkühe gehalten?“, gelesen 2026-11-26: Melkroboter melken
   vollautomatisch. Mehr (Kühe gehen selbst hin, Daten je Kuh) ist nicht belegt und steht nicht auf der Seite.
 
@@ -180,3 +181,7 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
   Frage, die zum Grund führt (Prüfung als Lernende).
 - Ein Begriff steht nie in einer Tabelle oder Übung, bevor ihn die Seite erklärt (Lizenz, ©, 4.0).
 - Eine Aussage über Technik im Beruf nur, wenn eine Quelle sie belegt (Melkroboter).
+- Geschmack („schön“, „cool“, „mag die Farbe nicht“) zählt nie; ein Wunsch der Beteiligten („Die Klasse wünscht
+  sich …“) zählt dafür, wiegt aber wenig. Beispiel und Aufgaben müssen das gleich behandeln (Fachprüfung).
+- Nicht „für alles brauchst du Erlaubnis“ schreiben: Die Ausnahme für den Unterricht (§ 60a) gilt auch für Seite 2.
+- Ein Foto ist „geschützt“; nicht jedes Foto ist ein Werk im Sinn von § 2 (einfache Lichtbilder: § 72, ungeprüft).

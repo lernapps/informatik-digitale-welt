@@ -38,13 +38,12 @@ blocks:
       - type: text
         text:
           de: |
-            Auf der letzten Seite hast du gelernt: Ein Foto ist ein Werk. Es gehört der Fotografin, also der
-            Urheberin. Sie entscheidet, was damit passieren darf. Die Bildersuche zeigt Selin drei Fotos vom See. Unter
+            Auf der letzten Seite hast du gelernt: Ein Foto ist geschützt. Es gehört der Fotografin, also der Urheberin. Sie entscheidet, was damit passieren darf. Die Bildersuche zeigt Selin drei Fotos vom See. Unter
             jedem steht ein anderer Hinweis. Ein **Fall** ist so eine Lage, in der du entscheiden musst, was okay ist.
 
             Auf dieser Seite lernst du, wann du ein fremdes Bild nutzen darfst und wie du die Quelle angibst.
           en: |
-            On the last page you learned: a photo is a work. It belongs to the photographer, who is its creator. She
+            On the last page you learned: a photo is protected. It belongs to the photographer, who is its creator. She
             decides what may happen to it. The picture search shows Selin three photos of the lake. Each one has a
             different note under it. A **case** is a situation like this, where you have to decide what is okay.
 
@@ -89,8 +88,8 @@ blocks:
               de: Pia Brandt hat ihr Foto für alle freigegeben.
               en: Pia Brandt has made her photo free for everyone.
         explanation:
-          de: „Alle Rechte vorbehalten“ heißt, dass die Urheberin über jede Nutzung selbst entscheidet. Das Zeichen © steht für Copyright, das englische Wort für Urheberrecht.
-          en: “All rights reserved” means that the creator decides about every use herself. The sign © stands for copyright.
+          de: „Alle Rechte vorbehalten“ heißt, dass die Urheberin über die Nutzung selbst entscheidet, außer bei Ausnahmen wie im Unterricht. Das Zeichen © steht für Copyright, das englische Wort für Urheberrecht.
+          en: “All rights reserved” means that the creator decides about its use herself, except for exceptions such as lessons. The sign © stands for copyright.
   - type: section
     id: idee
     title:
@@ -125,8 +124,8 @@ blocks:
         rows:
           - - { de: CC BY, en: CC BY }
             - {
-                de: "die Urheberin und die Lizenz nennen (im Internet mit Link) und sagen, ob du etwas geändert hast",
-                en: "name the creator and the licence (online with a link) and say whether you changed anything",
+                de: "die Urheberin und die Lizenz mit Link nennen (auf Papier die Internet-Adresse der Lizenz) und sagen, ob du etwas geändert hast",
+                en: "name the creator and the licence with a link (on paper, the web address of the licence) and say whether you changed anything",
               }
           - - { de: CC0, en: CC0 }
             - {
@@ -136,8 +135,8 @@ blocks:
       - type: definition
         term: { de: Quellenangabe, en: credit }
         explanation:
-          de: "Ein kurzer Text beim Bild: Titel, Urheberin, Quelle (die Seite, auf der das Bild steht) und Lizenz."
-          en: "A short text next to the picture: title, creator, source (the website the picture is on) and licence."
+          de: "Ein kurzer Text beim Bild: Titel, Urheberin, Quelle (die Seite, auf der das Bild steht, am besten mit Internet-Adresse) und Lizenz."
+          en: "A short text next to the picture: title, creator, source (the website the picture is on, best with its web address) and licence."
       - type: note
         title: { de: "In der Klasse oder im Internet?", en: "In class or online?" }
         blocks:
@@ -148,13 +147,13 @@ blocks:
                 Das erlaubt ein Gesetz, das Urheberrechtsgesetz. Gib immer die Quelle an, so weiß jeder, von wem das
                 Bild ist.
 
-                **Im Internet**, auch auf der Schulhomepage, brauchst du eine Erlaubnis oder eine freie Lizenz. Bist du
+                **Im Internet, wo alle es sehen können**, auch auf der Schulhomepage, brauchst du eine Erlaubnis oder eine freie Lizenz. Bist du
                 nicht sicher, frag deine Lehrerin oder deinen Lehrer.
               en: |
                 **In class, and to show at your school,** you may use someone else's picture for your lessons. A law
                 allows this, the German Copyright Act. Always give the source, so everyone knows who made the picture.
 
-                **Online**, also on the school website, you need permission or a free licence. If you are not sure,
+                **Online, where everyone can see it**, also on the school website, you need permission or a free licence. If you are not sure,
                 ask your teacher.
   - type: section
     id: urteil
@@ -199,20 +198,20 @@ blocks:
           nichtTitel: { de: Zählt nicht, en: Does not count }
           nicht:
             - {
-                de: "„Mia findet Foto 2 langweilig.“ Das sagt nichts darüber, ob Selin es nutzen darf.",
-                en: "“Mia thinks photo 2 is boring.” That says nothing about whether Selin may use it.",
+                de: "„Das machen doch alle so.“ Was viele tun, ist deshalb nicht erlaubt.",
+                en: "“Everyone does it like this.” What many people do is not allowed just because of that.",
               }
         nojs:
           de: |
             Die Urteilsskala hat fünf Stufen: 1 geht nicht, 2 eher nicht, 3 kommt darauf an, 4 eher okay, 5 ist okay.
             Beispiel: Selin hängt Foto 2 mit Quellenangabe an das Plakat im Klassenzimmer. Urteil: Stufe 5. Gründe
             dafür: Die Lizenz CC BY erlaubt es. Selin nennt Urheber und Lizenz. Gründe dagegen: keine. Zählt nicht:
-            „Mia findet Foto 2 langweilig.“
+            „Das machen doch alle so.“
           en: |
             The judgement scale has five steps: 1 not okay, 2 mostly not, 3 it depends, 4 mostly okay, 5 okay.
             Example: Selin puts photo 2 with a credit on the poster in the classroom. Judgement: step 5. Reasons for:
             the CC BY licence allows it. Selin names the creator and the licence. Reasons against: none. Does not
-            count: “Mia thinks photo 2 is boring.”
+            count: “Everyone does it like this.”
   - type: section
     id: uebung
     title:
@@ -345,22 +344,22 @@ blocks:
                 de: Die Urheberin entscheidet, ob ihr Werk ins Internet darf. Hat Lena Vogt Ja gesagt?
                 en: The creator decides whether her work may go online. Has Lena Vogt said yes?
             - text:
-                de: Foto 1 ist das schönste Foto vom See.
-                en: Photo 1 is the nicest photo of the lake.
+                de: Die Klasse wünscht sich das schönste Foto vom See, und das ist Foto 1.
+                en: The class wishes for the nicest photo of the lake, and that is photo 1.
               zaehlt: dafuer
               warum:
                 de: Denk an die Skala oben. Ein Grund kann zählen und trotzdem wenig wiegen.
                 en: Think of the scale above. A reason can count and still weigh little.
             - text:
-                de: Im Internet machen das doch alle so.
-                en: Everyone does it like this online.
+                de: Auf vielen Schulhomepages sieht man fremde Fotos.
+                en: Many school websites show other people's photos.
               zaehlt: nicht
               warum:
                 de: Was viele tun, wird dadurch nicht erlaubt. Sagt der Satz etwas über Selins Fall?
                 en: What many people do does not become allowed because of that. Does the sentence say anything about Selin's case?
             - text:
-                de: Mit Foto 2 (CC BY) gäbe es ein erlaubtes Foto vom See.
-                en: Photo 2 (CC BY) would be an allowed photo of the lake.
+                de: Selin könnte stattdessen Foto 2 nehmen, das sie nutzen darf.
+                en: Selin could take photo 2 instead, which she may use.
               zaehlt: dagegen
               warum:
                 de: Es gibt einen erlaubten Weg zu einem Foto vom See. Braucht Selin dann Foto 1?
