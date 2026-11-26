@@ -19,8 +19,8 @@ languages: [de, en]
 chapters: [ich]
 sources:
   - title:
-      de: "Gesetz über Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz), §§ 2, 15, 60a"
-      en: "German Copyright Act (Urheberrechtsgesetz), sections 2, 15, 60a"
+      de: "Gesetz über Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz), §§ 2, 15, 60a, 63, 72; Stand: zuletzt geändert durch Art. 2 G v. 26.5.2026 (BGBl. 2026 I Nr. 157), gelesen am 26.11.2026"
+      en: "German Copyright Act (Urheberrechtsgesetz), sections 2, 15, 60a, 63, 72; as last amended by Art. 2 of the Act of 26 May 2026 (BGBl. 2026 I No. 157), read on 26 Nov 2026"
     url: "https://www.gesetze-im-internet.de/urhg/"
   - title:
       de: "Creative Commons: Namensnennung 4.0 International (CC BY 4.0)"
