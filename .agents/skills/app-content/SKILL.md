@@ -24,15 +24,26 @@ Kapitel `ich` „Ich in der digitalen Welt“ (5-6), in dieser Reihenfolge:
 
 1. `ich/das-brauchst-du`: Sammel-Wiederholung,
    `recap: [informatik/informatiksysteme-im-alltag, informatik/ki-im-alltag, informatik/maschinelles-lernen]`.
-2. `ich/wem-gehoert-das-bild` (`urheberrecht`): Werk, Urheberin, Urheberrecht.
-3. `ich/bild-fuers-plakat` (`urheberrecht`): Erlaubnis, freie Lizenz, Quellenangabe, in der Klasse und im Internet.
+   Selbstcheck mit den drei „Ich kann …“-Sätzen, Bild `wiederholung.svg` (Jona, Smartphone, Trainingsbeutel),
+   Merksatz. Übung: `nur-katzen`.
+2. `ich/wem-gehoert-das-bild` (`urheberrecht`): Werk, Urheberin, Urheberrecht (Glossar: Werk, Urheberin oder
+   Urheber, Urheberrecht). Übungen: `wem-gehoert-das-foto`, `wer-ist-urheber` (matching), `was-ist-ein-werk`
+   (multiple-choice), `wie-viele-entscheidet-mia` (number), `ben-kopiert`.
+3. `ich/bild-fuers-plakat` (`urheberrecht`, Musterseite): Erlaubnis, freie Lizenz, Quellenangabe, in der Klasse und
+   im Internet; führt die Urteilsskala ein. Übungen: `welches-foto-nicht`, `was-du-tun-musst` (matching),
+   `quellenangabe`, `wo-darf-foto-1-hin` (multiple-choice), `quelle-reicht-nicht` (true-false), `UrteilAufgabe`
+   Fall 1 (`erlaubt: [1, 2]`).
    „Ich kann erklären, was das Urheberrecht schützt, und fremde Texte, Bilder und Musik nur mit Erlaubnis und
-   Quellenangabe verwenden.“ Übungen: `welches-foto-nicht`, `was-du-tun-musst` (matching), `quellenangabe`,
-   `wo-darf-foto-1-hin` (multiple-choice), `cc0-name` (true-false), Komponente `UrteilAufgabe` (Urteil 1).
+   Quellenangabe verwenden.“
 4. `ich/berufsbesuch` (`informatik-in-alltag-und-beruf`): „Ich kann an Beispielen beschreiben, wie
-   Informatiksysteme mein Leben und die Arbeitswelt verändern.“
+   Informatiksysteme mein Leben und die Arbeitswelt verändern.“ Drei Gäste, Tabelle früher/heute, vier Arten der
+   Veränderung. Übungen: `wo-bei-kaya`, `was-sich-veraendert` (matching), `bestellung-per-app` (ordering),
+   `nur-informatiker` (true-false), `UrteilAufgabe` Fall 2 Bäckerei-App (`erlaubt: [2, 3, 4]`).
 5. `ich/ki-hausaufgaben` (`ki-chancen-und-risiken`): „Ich kann an Beispielen Chancen und Risiken künstlicher
-   Intelligenz für mich und die Gesellschaft beschreiben.“
+   Intelligenz für mich und die Gesellschaft beschreiben.“ Tabelle Chancen/Risiken, Kasten „Zwei Fragen vor jeder
+   Nutzung“. Übungen: `was-lernt-jona`, `was-jona-tun-soll` (matching), `ki-immer-richtig` (true-false),
+   `UrteilAufgabe` Fall 3a (ganzen Text abgeben, `erlaubt: [1, 2]`) und Fall 3b (erklären lassen und prüfen,
+   `erlaubt: [3, 4, 5]`). Abschnitt `rueckblick`: Tabelle der drei Fälle.
 
 Geplant, nicht gebaut: Kapitel 2 „Meine Daten gehören mir“ (7-8: personenbezogene-daten, eigene-daten-schuetzen,
 datenschutz-und-datensicherheit, recht-am-eigenen-bild), Kapitel 3 „Kommunizieren und urteilen im Netz“ (7-8:
@@ -61,7 +72,11 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
   - Fall 1 (Seiten 2 und 3): Selin sucht ein Foto für das Plakat „Klassenfahrt zum Seeberg“; Mia malt einen Zug.
     Die drei Fotos (alle Namen erfunden): 1 „Seeberg im Sommer“, © Lena Vogt, alle Rechte vorbehalten;
     2 „Steg am See“, Karim Haddad, CC BY 4.0; 3 „Seeufer am Morgen“, Pia Brandt, CC0.
-  - Fall 2 (Seite 4): Berufsbesuch in der 6b. Fall 3 (Seite 5): Jona und die Chat-KI bei den Hausaufgaben.
+  - Fall 2 (Seite 4): Frau Berg lädt drei erfundene Gäste ein: Herr Kaya (Bäcker, Kasse, Bestell-App), Frau
+    Schulte (Landwirtin, Melkroboter), Frau Nguyen (Informatikerin, programmiert die Bestell-App). Herr Lange (78)
+    hat kein Smartphone.
+  - Fall 3 (Seite 5): Jona soll einen Text über Igel im Winter schreiben und nutzt eine Chat-KI.
+  - Pronomen: Für Jona, Ali und andere Kinder ohne festgelegtes Pronomen steht der Name, nicht „er“ oder „sie“.
 
 ## Terminology
 
@@ -115,7 +130,11 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
 - Der Trainingsbeutel ist `<g id="trainingsbeutel">` aus `lernapps/informatik-ki`, `src/images/beutel-szene.svg`:
   Stoffbeutel Petrol #3a8fa3, Kordel #1f5e6b, gelber Pfoten-Aufnäher #f4c542, zwei Tierkarten.
 - `src/images/plakat-szene.svg`: Selin mit Tablet (Seefoto) links, Plakat mit leerem Rahmen und Mias Zug in der
-  Mitte, Mia rechts.
+  Mitte, Mia rechts (Seiten 2 und 3).
+- `src/images/wiederholung.svg`: Jona mit Smartphone, Trainingsbeutel (Wiederholung).
+- `src/images/berufsbesuch.svg`: Herr Kaya mit Kasse und Brot, Frau Schulte mit Melkroboter und Milchkanne, Frau
+  Nguyen mit Laptop; gleicher Stil wie die Kinder.
+- `src/images/hausaufgaben.svg`: Jona am Schreibtisch, Tablet mit zwei Sprechblasen ohne Text, Buch mit Igel.
 - **Urteilsskala** (`Urteilsskala.vue` Anzeige, `UrteilAufgabe.vue` Übung, gemeinsames Aussehen in
   `Urteilsskala.ts`): fünf Stufen als Leiste, Farben 1 #b5473a, 2 #bf7537, 3 #a67c2a, 4 #7c9052, 5 #2e7d6b (jede
   ≥ 3:1 auf Weiß und auf #1a1a1a, getestet). Jede Stufe hat einen Kreis mit Zahl auf `--page-surface` und das Wort
@@ -136,6 +155,11 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
   (https://creativecommons.org/share-your-work/cclicenses/), Empfehlung TASL
   (https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution).
 - KI-Fakten aus `lernapps/informatik-ki` (#493), Branch `work`.
+- klicksafe, gelesen 2026-11-26: „Wie verlässlich ist ChatGPT?“ (Antworten nicht per se fehlerfrei, kaum von
+  menschlichen zu unterscheiden) und „Risiken durch KI-Systeme“ (so gut wie die Trainingsdaten). „Nichts
+  Persönliches eintippen“ ist eine Regel der App, ohne Quelle.
+- landwirtschaft.de (BZL), „Wie werden Milchkühe gehalten?“, gelesen 2026-11-26: Melkroboter melken
+  vollautomatisch. Mehr (Kühe gehen selbst hin, Daten je Kuh) ist nicht belegt und steht nicht auf der Seite.
 
 ## Adding a chapter or round
 
@@ -150,4 +174,9 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
 
 ## Rules learned from mistakes
 
-- Text mit „: “ oder „?“ in einer Flow-Map (`{ de: …, en: … }`) immer in Anführungszeichen.
+- Text mit „: “, „?“ oder einem Komma in einer Flow-Map (`{ de: …, en: … }`) immer in Anführungszeichen (sechsmal
+  brach der Build daran).
+- Die Rückmeldung (`warum`) einer UrteilAufgabe nennt nie die Einordnung („spricht dafür“), sondern stellt eine
+  Frage, die zum Grund führt (Prüfung als Lernende).
+- Ein Begriff steht nie in einer Tabelle oder Übung, bevor ihn die Seite erklärt (Lizenz, ©, 4.0).
+- Eine Aussage über Technik im Beruf nur, wenn eine Quelle sie belegt (Melkroboter).

@@ -238,7 +238,7 @@ page, which a link. -->
 - [x] Seite ich/berufsbesuch: drei Gäste (Szene berufsbesuch.svg), Arbeit früher und heute, Urteil Bäckerei-App (mindestens drei vertretbare Stufen)
 - [x] Seite ich/ki-hausaufgaben: Chancen und Risiken der Chat-KI (Szene hausaufgaben.svg), zwei Urteile, Rückblick mit den drei Urteilen des Kapitels
 <!-- tasks: pages (4 added): the other pages or screens, after the pattern -->
-- [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
+- [x] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
