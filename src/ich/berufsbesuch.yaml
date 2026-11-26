@@ -1,0 +1,281 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Besuch aus der Arbeitswelt
+  en: Visitors from the world of work
+description:
+  de: "Informatik in Alltag und Beruf: Wie Informatiksysteme die Arbeit in Bäckerei, Hof und Büro verändern. Das zweite Urteil."
+  en: "Computing in life and work: how computer systems change work in a bakery, on a farm and in an office. The second judgement."
+competencies: [informatik-in-alltag-und-beruf]
+blocks:
+  - type: section
+    id: einstieg
+    title:
+      de: "Fall 2: Drei Gäste in der 6b"
+      en: "Case 2: Three guests in class 6b"
+    blocks:
+      - type: labelled-figure
+        image: images/berufsbesuch.svg
+        source: { de: "eigene Zeichnung, Oliver Jägle", en: "own drawing, Oliver Jägle" }
+        licence: CC-BY-4.0
+        alt:
+          de: Drei Erwachsene hinter einem Tisch. Links ein Bäcker mit Mütze, vor ihm eine Kasse mit Bildschirm und ein Brot. In der Mitte eine Landwirtin in grüner Latzhose, vor ihr ein grauer Kasten mit einem Arm und eine Milchkanne. Rechts eine Frau in blauem Pullover mit einem Laptop.
+          en: Three adults behind a table. On the left a baker with a hat, in front of him a till with a screen and a loaf of bread. In the middle a farmer in green dungarees, in front of her a grey box with an arm and a milk churn. On the right a woman in a blue jumper with a laptop.
+        caption:
+          de: "Von links: Herr Kaya, Bäcker; Frau Schulte, Landwirtin; Frau Nguyen, Informatikerin (alle erfunden)."
+          en: "From the left: Mr Kaya, baker; Ms Schulte, farmer; Ms Nguyen, computer scientist (all made up)."
+        labels:
+          - { x: 14, y: 70, marker: A, text: { de: Kasse der Bäckerei, en: the bakery's till } }
+          - { x: 41, y: 68, marker: B, text: { de: Melkroboter, en: milking robot } }
+          - { x: 81, y: 70, marker: C, text: { de: Laptop, en: laptop } }
+      - type: text
+        text:
+          de: |
+            Fall 1 ist entschieden. Jetzt hat Frau Berg, die Klassenlehrerin der 6b, drei Gäste eingeladen. Sie
+            erzählen, wie Computer ihre Arbeit verändert haben. Du kennst schon Informatiksysteme aus deinem Alltag.
+
+            Auf dieser Seite lernst du an Beispielen, wie Informatiksysteme die Arbeit und das Leben verändern.
+          en: |
+            Case 1 is settled. Now Ms Berg, the class teacher of 6b, has invited three guests. They tell the class how
+            computers have changed their work. You already know computer systems from your everyday life.
+
+            On this page you learn from examples how computer systems change work and life.
+      - type: single-choice
+        id: wo-bei-kaya
+        text:
+          de: Wo arbeitet bei Herrn Kaya ein Informatiksystem?
+          en: Where is there a computer system at work at Mr Kaya's?
+        options:
+          - text: { de: in der Kasse (A), en: in the till (A) }
+            correct: true
+            info:
+              de: Die Kasse rechnet den Preis aus und zeigt ihn an. In ihr arbeitet ein Computer.
+              en: The till works out the price and shows it. A computer works inside it.
+          - text: { de: im Brot, en: in the bread }
+            correct: false
+            info:
+              de: Das Brot hat Herr Kaya gebacken. Es rechnet nichts und merkt sich nichts.
+              en: Mr Kaya baked the bread. It does not calculate or remember anything.
+          - text: { de: in der Bäckermütze, en: in the baker's hat }
+            correct: false
+            info:
+              de: Die Mütze schützt das Essen vor Haaren. Ein Computer ist darin nicht.
+              en: The hat keeps hair out of the food. There is no computer in it.
+        explanation:
+          de: Ein Informatiksystem rechnet, zählt oder merkt sich etwas. Das tut die Kasse.
+          en: A computer system calculates, counts or remembers something. The till does that.
+  - type: section
+    id: idee
+    title:
+      de: Was sich bei der Arbeit verändert
+      en: What changes at work
+    blocks:
+      - type: table
+        caption:
+          de: Was die Gäste erzählen, früher und heute
+          en: What the guests tell, before and today
+        header:
+          - { de: Gast, en: Guest }
+          - { de: Früher, en: Before }
+          - { de: Heute, en: Today }
+        rowHeaders: true
+        rows:
+          - - { de: Herr Kaya, en: Mr Kaya }
+            - {
+                de: "Preise im Kopf rechnen, Bestellungen auf Zetteln",
+                en: "adding up prices in his head, orders on slips of paper",
+              }
+            - {
+                de: "Die Kasse rechnet den Preis aus. Bestellungen kommen auch per App.",
+                en: "The till works out the price. Orders also come by app.",
+              }
+          - - { de: Frau Schulte, en: Ms Schulte }
+            - {
+                de: "Frau Schulte melkt jede Kuh mit der Melkmaschine.",
+                en: "Ms Schulte milks every cow with the milking machine.",
+              }
+            - {
+                de: "Ein Melkroboter melkt die Kühe ganz von selbst. Frau Schulte schaut jeden Tag nach den Tieren.",
+                en: "A milking robot milks the cows all by itself. Ms Schulte checks on the animals every day.",
+              }
+          - - { de: Frau Nguyen, en: Ms Nguyen }
+            - {
+                de: "Bevor es Computer gab, gab es ihren Beruf nicht.",
+                en: "Before there were computers, her job did not exist.",
+              }
+            - {
+                de: "Sie programmiert Apps, zum Beispiel die Bestell-App der Bäckerei.",
+                en: "She programs apps, for example the bakery's ordering app.",
+              }
+      - type: text
+        text:
+          de: |
+            Informatiksysteme verändern die Arbeit auf verschiedene Weise:
+
+            - Manches geht **schneller oder leichter**, etwa das Rechnen an der Kasse.
+            - Es gibt **neue Berufe**, etwa Informatikerin.
+            - Manche **Aufgaben fallen weg**, etwa das Melken von Hand an jeder Kuh.
+            - Die Menschen müssen **Neues lernen**, etwa wie der Melkroboter funktioniert.
+
+            Auch dein Alltag ändert sich: Du kaufst ein, bestellst oder fährst Bus mit einer App.
+          en: |
+            Computer systems change work in different ways:
+
+            - Some things get **faster or easier**, such as adding up at the till.
+            - There are **new jobs**, such as computer scientist.
+            - Some **tasks disappear**, such as milking each cow by hand.
+            - People have to **learn new things**, such as how the milking robot works.
+
+            Your everyday life changes too: you shop, order or take the bus with an app.
+      - type: note
+        title: { de: Merke, en: Remember }
+        blocks:
+          - type: text
+            text:
+              de: Eine Veränderung kann für die einen gut und für andere schwer sein. Frag immer, für wen.
+              en: A change can be good for some people and hard for others. Always ask, for whom.
+  - type: section
+    id: uebung
+    title:
+      de: Übung
+      en: Practice
+    blocks:
+      - type: matching
+        id: was-sich-veraendert
+        text:
+          de: Was hat sich verändert? Ordne jedem Beispiel die Art der Veränderung zu.
+          en: What has changed? Match each example to the kind of change.
+        pairs:
+          - left: { de: Die Kasse rechnet den Preis aus., en: The till works out the price. }
+            right: { de: schneller oder leichter, en: faster or easier }
+          - left: { de: Frau Nguyen programmiert Apps., en: Ms Nguyen programs apps. }
+            right: { de: ein neuer Beruf, en: a new job }
+          - left:
+              { de: Frau Schulte melkt die Kühe nicht mehr selbst., en: Ms Schulte no longer milks the cows herself. }
+            right: { de: eine Aufgabe fällt weg, en: a task disappears }
+          - left:
+              {
+                de: Frau Schulte hat einen Kurs zum Melkroboter gemacht.,
+                en: Ms Schulte took a course about the milking robot.,
+              }
+            right: { de: Neues lernen, en: learning new things }
+        hint:
+          de: Schau dir die Liste im Abschnitt „Was sich bei der Arbeit verändert“ an.
+          en: Look at the list in the section “What changes at work”.
+        explanation:
+          de: Informatiksysteme machen manches schneller, bringen neue Berufe, lassen Aufgaben wegfallen und verlangen, Neues zu lernen.
+          en: Computer systems make some things faster, bring new jobs, make tasks disappear and ask people to learn new things.
+      - type: ordering
+        id: bestellung-per-app
+        text:
+          de: "Eine Kundin bestellt Brötchen per App. Bring die Schritte in die richtige Reihenfolge."
+          en: "A customer orders bread rolls by app. Put the steps in the right order."
+        items:
+          - { de: Die Kundin tippt ihre Bestellung in die App., en: The customer types her order into the app. }
+          - { de: Die App schickt die Bestellung an die Bäckerei., en: The app sends the order to the bakery. }
+          - { de: Herr Kaya sieht die Bestellung auf dem Bildschirm., en: Mr Kaya sees the order on the screen. }
+          - { de: Herr Kaya packt die Brötchen ein., en: Mr Kaya packs the bread rolls. }
+          - { de: Die Kundin holt die Brötchen ab., en: The customer collects the bread rolls. }
+        hint:
+          de: "Denk an Eingabe, Verarbeitung und Ausgabe: Was muss zuerst passieren, damit Herr Kaya etwas sieht?"
+          en: "Think of input, process and output: what has to happen first so that Mr Kaya sees something?"
+        explanation:
+          de: Erst gibt die Kundin die Bestellung ein, dann schickt die App sie weiter, und die Bäckerei zeigt sie an. Erst danach packt ein Mensch die Brötchen.
+          en: First the customer enters the order, then the app sends it on and the bakery shows it. Only then does a person pack the rolls.
+      - type: true-false
+        id: nur-informatiker
+        text:
+          de: "Tom sagt: „Mit Computern arbeiten nur Informatikerinnen und Informatiker.“"
+          en: "Tom says: “Only computer scientists work with computers.”"
+        answer: false
+        hint:
+          de: Schau auf Herrn Kaya und Frau Schulte. Welche Berufe haben sie?
+          en: Look at Mr Kaya and Ms Schulte. What jobs do they have?
+        explanation:
+          de: Auch ein Bäcker und eine Landwirtin arbeiten mit Informatiksystemen. Sie programmieren sie nicht, aber sie nutzen sie jeden Tag.
+          en: A baker and a farmer work with computer systems too. They do not program them, but they use them every day.
+      - type: text
+        text:
+          de: "Herr Kaya überlegt etwas Neues. Mehr als eine Stufe kann hier passen. Wie urteilst du?"
+          en: "Mr Kaya is thinking about something new. More than one step can fit here. What is your judgement?"
+      - type: vue-component
+        component: UrteilAufgabe
+        props:
+          fall:
+            de: "Fall 2: Die Bäckerei von Herrn Kaya nimmt Bestellungen nur noch per App an, nicht mehr am Telefon."
+            en: "Case 2: Mr Kaya's bakery only takes orders by app, no longer by phone."
+          stufen:
+            - { de: geht nicht, en: not okay }
+            - { de: eher nicht, en: mostly not }
+            - { de: kommt darauf an, en: it depends }
+            - { de: eher okay, en: mostly okay }
+            - { de: ist okay, en: okay }
+          gruende:
+            - text:
+                de: Herr Kaya muss keine Zettel mehr lesen und vergisst keine Bestellung.
+                en: Mr Kaya no longer has to read slips of paper and forgets no order.
+              zaehlt: dafuer
+              warum:
+                de: Was wird für Herrn Kaya leichter, wenn die Bestellungen in der App ankommen?
+                en: What gets easier for Mr Kaya when the orders arrive in the app?
+            - text:
+                de: Herr Lange ist 78 und hat kein Smartphone. Er kann dann nicht mehr bestellen.
+                en: Mr Lange is 78 and has no smartphone. Then he can no longer order.
+              zaehlt: dagegen
+              warum:
+                de: "Denk an den Merksatz: Für wen ist die Veränderung schwer?"
+                en: "Think of the reminder: for whom is the change hard?"
+            - text:
+                de: Apps sind modern, und modern ist immer gut.
+                en: Apps are modern, and modern is always good.
+              zaehlt: nicht
+              warum:
+                de: Sagt „modern“ etwas darüber, ob es Herrn Kaya oder den Kunden hilft?
+                en: Does “modern” say anything about whether it helps Mr Kaya or the customers?
+            - text:
+                de: Kundinnen und Kunden können auch nachts bestellen, wenn die Bäckerei zu ist.
+                en: Customers can also order at night, when the bakery is closed.
+              zaehlt: dafuer
+              warum:
+                de: Was können die Kunden mit der App, was am Telefon nicht ging?
+                en: What can customers do with the app that they could not do by phone?
+            - text:
+                de: Mia mag die Farbe der App nicht.
+                en: Mia does not like the colour of the app.
+              zaehlt: nicht
+              warum:
+                de: Ändert die Farbe etwas daran, wer bestellen kann?
+                en: Does the colour change anything about who can order?
+          erlaubt: [2, 3, 4]
+          gruendeTitel: { de: "Wie zählt jeder Grund?", en: "How does each reason count?" }
+          skalaTitel:
+            {
+              de: "Dein Urteil: Wie okay ist der Plan der Bäckerei?",
+              en: "Your judgement: how okay is the bakery's plan?",
+            }
+          dafuer: { de: zählt dafür, en: counts for }
+          dagegen: { de: zählt dagegen, en: counts against }
+          nicht: { de: zählt nicht, en: does not count }
+          positionFalsch:
+            de: "Die Gründe stimmen. Stufe {stufe} „{wort}“ passt aber nicht dazu: Es gibt gewichtige Gründe dafür und dagegen. Welche Stufe zeigt, dass beide Seiten zählen?"
+            en: "The reasons are right. But step {stufe} “{wort}” does not fit them: there are strong reasons for and against. Which step shows that both sides count?"
+          fehltGrund: { de: Ordne noch jeden Grund ein., en: Sort every reason first. }
+          fehltStufe: { de: Wähle noch eine Stufe auf der Skala., en: Choose a step on the scale first. }
+        examples:
+          accepted:
+            - { answer: { stufe: 2, einordnung: [dafuer, dagegen, nicht, dafuer, nicht] }, seed: 1 }
+            - { answer: { stufe: 4, einordnung: [dafuer, dagegen, nicht, dafuer, nicht] }, seed: 1 }
+          rejected:
+            - { answer: { stufe: 5, einordnung: [dafuer, dagegen, nicht, dafuer, nicht] }, seed: 1 }
+            - { answer: { stufe: 3, einordnung: [dafuer, nicht, nicht, dafuer, nicht] }, seed: 1 }
+      - type: text
+        text:
+          de: |
+            Erklär dein Urteil jemandem neben dir: Was könnte die Bäckerei für Herrn Lange tun?
+
+            Frau Nguyen erzählt zum Schluss noch etwas: Inzwischen kann eine KI sogar Texte schreiben. Das bringt Jona
+            auf eine Idee. Das ist Fall 3.
+          en: |
+            Explain your judgement to someone next to you: what could the bakery do for Mr Lange?
+
+            At the end Ms Nguyen tells the class one more thing: an AI can now even write texts. That gives Jona an
+            idea. That is case 3.
