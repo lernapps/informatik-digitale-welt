@@ -82,7 +82,7 @@ const gruppe = computed(() => `urteil-${props.seed}-${props.gruende.length}`);
     <ol class="urteil-gruende">
       <li v-for="(g, i) in aufgabe.gruende" :key="g.text">
         <fieldset>
-          <legend>„{{ g.text }}“</legend>
+          <legend>{{ g.text }}</legend>
           <span class="urteil-wahl">
             <label v-for="e in EINORDNUNGEN" :key="e" :class="['urteil-knopf', `urteil-${e}`]">
               <input

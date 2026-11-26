@@ -68,7 +68,7 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
 - Deutsch in einfacher Sprache mit „du“, kurze Sätze. Englisch in Plain English mit „you“.
 - Recht, so für Kinder gesagt:
   - „Die Urheberin entscheidet, was mit ihrem Werk passieren darf.“
-  - „In der Klasse und zum Zeigen in deiner Schule“ darfst du für den Unterricht ein fremdes Bild nutzen
+  - „In der Klasse und zum Zeigen in deiner Schule“ (en „in class, and to show at your school“) darfst du für den Unterricht ein fremdes Bild nutzen
     (§ 60a Abs. 1 Nr. 1 und 3, Abs. 2 UrhG: Abbildungen ganz). Nicht „im Unterricht“ allein.
   - „Im Internet, auch auf der Schulhomepage“ brauchst du eine Erlaubnis oder eine freie Lizenz.
   - Unsicher: „Frag deine Lehrerin oder deinen Lehrer.“ Keine Rechtsberatung.
@@ -81,7 +81,7 @@ digitale-kommunikation, gefahren-im-netz, informationen-bewerten, umweltbilanz-d
   Trainingsbeutel, Merksatz „Was in den Beutel kommt, bestimmt, was herauskommt.“ (en „What goes into the bag
   decides what comes out.“)
 - Urteilsskala, fünf Stufen, Wörter immer gleich: 1 geht nicht, 2 eher nicht, 3 kommt darauf an, 4 eher okay,
-  5 ist okay (en: not okay, rather not, it depends, rather okay, okay). Einordnung eines Grunds: zählt dafür,
+  5 ist okay (en: not okay, mostly not, it depends, mostly okay, okay). Einordnung eines Grunds: zählt dafür,
   zählt dagegen, zählt nicht (en: counts for, counts against, does not count).
 
 ## Exercise patterns

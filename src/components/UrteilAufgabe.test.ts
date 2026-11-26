@@ -60,6 +60,9 @@ test("reason names each reason sorted wrong with its why, never only 'wrong'", (
   expect(reason(t, { stufe: 1, einordnung: ["dagegen", "dafuer", "dafuer"] }, props)).toBe(
     "„Das machen doch alle.“: Was viele tun, ist nicht erlaubt.",
   );
+  expect(reason(t, { stufe: 1, einordnung: ["dagegen", "dafuer", "dafuer"] }, props, "en")).toBe(
+    "“Das machen doch alle.”: Was viele tun, ist nicht erlaubt.",
+  );
   expect(reason(t, { stufe: 1, einordnung: ["dafuer", "dafuer", "dafuer"] }, props)).toContain("Erlaubnis");
   expect(reason(t, { stufe: 5, einordnung: ["dagegen", "dafuer", "nicht"] }, props)).toBe(
     "Stufe 5 (ist okay) passt nicht zu den Gründen.",

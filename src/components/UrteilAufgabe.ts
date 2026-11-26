@@ -65,6 +65,11 @@ function zufall(seed: number): () => number {
   };
 }
 
+/** A text in the quotation marks of the language. */
+export function zitat(text: string, lang?: string): string {
+  return lang === "en" ? `“${text}”` : `„${text}“`;
+}
+
 /** Fills {name} placeholders. */
 export function fuelle(text: string, werte: Record<string, string | number>): string {
   return text.replace(/\{(\w+)\}/g, (ganz, name: string) => (name in werte ? String(werte[name]) : ganz));
@@ -130,12 +135,12 @@ export function mistakes(task: Task, _props?: Props): (Answer | undefined)[] {
  * The app's message for a wrong judgement: a reason not sorted yet, a missing step, then every reason sorted wrong
  * with why it counts the way it does, then a step the reasons do not allow.
  */
-export function reason(task: Task, answer: Answer, props: Props, _lang?: string): string | undefined {
+export function reason(task: Task, answer: Answer, props: Props, lang?: string): string | undefined {
   if (task.gruende.some((_, i) => !EINORDNUNGEN.includes(answer.einordnung[i] as Einordnung))) return props.fehltGrund;
   if (answer.stufe < 1 || answer.stufe > STUFEN) return props.fehltStufe;
   const meldungen = task.gruende
     .filter((g, i) => answer.einordnung[i] !== g.zaehlt)
-    .map((g) => `„${g.text}“: ${g.warum}`);
+    .map((g) => `${zitat(g.text, lang)}: ${g.warum}`);
   if (meldungen.length === 0 && !stufeRichtig(task, answer))
     meldungen.push(fuelle(props.positionFalsch, { stufe: answer.stufe, wort: props.stufen[answer.stufe - 1] ?? "" }));
   return meldungen.length === 0 ? undefined : meldungen.join(" ");
@@ -148,7 +153,8 @@ const stufenText = (props: Props, stufen: number[]) =>
   stufen.map((s) => `${s} (${props.stufen[s - 1] ?? ""})`).join(", ");
 
 /** The case and its reasons as text. */
-const gruendeText = (task: Task) => task.gruende.map((g, i) => `${i + 1}. „${g.text}“`).join(" ");
+const gruendeText = (task: Task, lang?: string) =>
+  task.gruende.map((g, i) => `${i + 1}. ${zitat(g.text, lang)}`).join(" ");
 
 /** The task as a learner sees it, and a right judgement. */
 export function describe(task: Task, props: Props, lang: string): { task: string; solution: string } {
@@ -157,7 +163,7 @@ export function describe(task: Task, props: Props, lang: string): { task: string
     lang === "en"
       ? `The reasons: ${einordnung}. Steps that fit these reasons: ${stufenText(props, task.erlaubt)}.`
       : `Die Gründe: ${einordnung}. Stufen, die zu diesen Gründen passen: ${stufenText(props, task.erlaubt)}.`;
-  return { task: template(props, lang).replace("{gruende}", gruendeText(task)), solution };
+  return { task: template(props, lang).replace("{gruende}", gruendeText(task, lang)), solution };
 }
 
 /** The task once, with {gruende} for the reasons in the order shown. */
@@ -169,8 +175,8 @@ export function template(props: Props, lang: string): string {
 }
 
 /** What sets a task: the reasons in the order shown. */
-export function params(task: Task, _props: Props, _lang: string): Record<string, string> {
-  return { gruende: gruendeText(task) };
+export function params(task: Task, _props: Props, lang: string): Record<string, string> {
+  return { gruende: gruendeText(task, lang) };
 }
 
 /** An answer as text: the step and how each reason is sorted. */

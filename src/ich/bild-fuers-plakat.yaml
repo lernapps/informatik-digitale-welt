@@ -10,54 +10,67 @@ blocks:
   - type: section
     id: einstieg
     title:
-      de: Drei Fotos vom See
-      en: Three photos of the lake
+      de: "Fall 1: Drei Fotos vom See"
+      en: "Case 1: Three photos of the lake"
     blocks:
       - type: labelled-figure
         image: images/plakat-szene.svg
-        source: { de: eigene Zeichnung, en: own drawing }
+        source: { de: "eigene Zeichnung, Oliver Jägle", en: "own drawing, Oliver Jägle" }
         licence: CC-BY-4.0
         alt:
           de: Links Selin mit einem Tablet, darauf ein Foto von einem See. In der Mitte ein Plakat mit einem leeren Rahmen und einem gemalten Zug. Rechts Mia mit einem Stift.
           en: On the left Selin with a tablet showing a photo of a lake. In the middle a poster with an empty frame and a painted train. On the right Mia with a pen.
         caption:
-          de: Selin und Mia am Plakat „Klassenfahrt zum Seeberg“. Ins leere Feld soll ein Foto vom See.
-          en: Selin and Mia at the poster “Class trip to the Seeberg”. A photo of the lake is meant to go into the empty frame.
+          de: Links Selin, rechts Mia, in der Mitte ihr Plakat für die Klassenfahrt zum Seeberg. Ins leere Feld soll ein Foto vom See.
+          en: Selin on the left, Mia on the right, and in the middle their poster for the class trip to the Seeberg. A photo of the lake is meant to go into the empty frame.
         labels:
-          - { x: 26, y: 60, marker: A, text: { de: Foto aus der Bildersuche, en: photo from a picture search } }
+          - {
+              x: 26,
+              y: 60,
+              marker: A,
+              text:
+                {
+                  de: Selins Tablet mit einem Foto aus der Bildersuche,
+                  en: Selin's tablet with a photo from a picture search,
+                },
+            }
           - { x: 52, y: 28, marker: B, text: { de: Platz für das Foto, en: space for the photo } }
-          - { x: 58, y: 64, marker: C, text: { de: Mias Zeichnung, en: Mia's drawing } }
       - type: text
         text:
           de: |
-            Auf der letzten Seite hast du gelernt: Das Foto gehört nicht Selin. Die Fotografin entscheidet, was damit
-            passieren darf. Die Bildersuche zeigt Selin drei Fotos vom See. Unter jedem steht etwas anderes.
+            Auf der letzten Seite hast du gelernt: Ein Foto ist ein Werk. Es gehört der Fotografin, also der
+            Urheberin. Sie entscheidet, was damit passieren darf. Die Bildersuche zeigt Selin drei Fotos vom See. Unter
+            jedem steht ein anderer Hinweis. Ein **Fall** ist so eine Lage, in der du entscheiden musst, was okay ist.
 
             Auf dieser Seite lernst du, wann du ein fremdes Bild nutzen darfst und wie du die Quelle angibst.
           en: |
-            On the last page you learned: the photo does not belong to Selin. The photographer decides what may happen
-            to it. The picture search shows Selin three photos of the lake. Each one has a different note under it.
+            On the last page you learned: a photo is a work. It belongs to the photographer, who is its creator. She
+            decides what may happen to it. The picture search shows Selin three photos of the lake. Each one has a
+            different note under it. A **case** is a situation like this, where you have to decide what is okay.
 
             On this page you learn when you may use someone else's picture and how to give the source.
       - type: table
         caption:
-          de: Die drei Fotos und was darunter steht (alle Namen erfunden)
-          en: The three photos and the notes under them (all names made up)
+          de: Die drei Fotos und ihre Hinweise (alle Namen erfunden). Was die Zeichen bedeuten, kommt gleich.
+          en: The three photos and their notes (all names made up). What the signs mean comes next.
         header:
           - { de: Foto, en: Photo }
-          - { de: Darunter steht, en: The note says }
+          - { de: Hinweis unter dem Foto, en: Note under the photo }
         rowHeaders: true
         rows:
           - - { de: "1 „Seeberg im Sommer“", en: "1 “Seeberg in summer”" }
             - { de: "© Lena Vogt, alle Rechte vorbehalten", en: "© Lena Vogt, all rights reserved" }
           - - { de: "2 „Steg am See“", en: "2 “Jetty on the lake”" }
-            - { de: "Karim Haddad, Lizenz CC BY 4.0", en: "Karim Haddad, licence CC BY 4.0" }
+            - {
+                de: "Karim Haddad, Fotoseite „Seebilder“, CC BY 4.0",
+                en: "Karim Haddad, photo site “Seebilder”, CC BY 4.0",
+              }
           - - { de: "3 „Seeufer am Morgen“", en: "3 “Lakeside in the morning”" }
-            - { de: "Pia Brandt, CC0", en: "Pia Brandt, CC0" }
+            - { de: "Pia Brandt, Fotoseite „Seebilder“, CC0", en: "Pia Brandt, photo site “Seebilder”, CC0" }
       - type: single-choice
         id: welches-foto-nicht
         text:
-          de: Die Klasse will das Plakat auch auf der Schulhomepage zeigen. Für welches Foto muss Selin dafür erst fragen?
+          de: Die Klasse will das Plakat auch auf der Schulhomepage zeigen. Bei welchem Foto muss Selin dafür vorher fragen?
           en: The class also wants to show the poster on the school website. For which photo does Selin have to ask first?
         options:
           - text: { de: "Foto 1, „alle Rechte vorbehalten“", en: "Photo 1, “all rights reserved”" }
@@ -68,16 +81,16 @@ blocks:
           - text: { de: "Foto 2, „CC BY 4.0“", en: "Photo 2, “CC BY 4.0”" }
             correct: false
             info:
-              de: Karim Haddad hat schon allen etwas erlaubt. Was genau, liest du unten bei „Freie Lizenzen“.
-              en: Karim Haddad has already given everyone permission for something. What exactly, you read below under “Free licences”.
+              de: Karim Haddad hat schon allen etwas erlaubt. Was genau, liest du im nächsten Abschnitt.
+              en: Karim Haddad has already given everyone permission for something. What exactly, you read in the next section.
           - text: { de: "Foto 3, „CC0“", en: "Photo 3, “CC0”" }
             correct: false
             info:
-              de: Pia Brandt hat ihr Foto für alle freigegeben. Was CC0 heißt, liest du unten.
-              en: Pia Brandt has made her photo free for everyone. You read below what CC0 means.
+              de: Pia Brandt hat ihr Foto für alle freigegeben.
+              en: Pia Brandt has made her photo free for everyone.
         explanation:
-          de: „Alle Rechte vorbehalten“ heißt, dass die Fotografin über jede Nutzung selbst entscheidet. Dafür muss man sie fragen.
-          en: “All rights reserved” means that the photographer decides every use herself. You have to ask her.
+          de: „Alle Rechte vorbehalten“ heißt, dass die Urheberin über jede Nutzung selbst entscheidet. Das Zeichen © steht für Copyright, das englische Wort für Urheberrecht.
+          en: “All rights reserved” means that the creator decides about every use herself. The sign © stands for copyright.
   - type: section
     id: idee
     title:
@@ -99,8 +112,8 @@ blocks:
       - type: definition
         term: { de: freie Lizenz, en: free licence }
         explanation:
-          de: Eine Erlaubnis für alle, die die Urheberin zu ihrem Werk schreibt. Bekannt sind die Creative-Commons-Lizenzen, kurz CC.
-          en: A permission for everyone that the creator adds to her work. Well-known ones are the Creative Commons licences, CC for short.
+          de: Eine Erlaubnis für alle, die die Urheberin zu ihrem Werk schreibt. Bekannt sind die Creative-Commons-Lizenzen, kurz CC. Die Zahl dahinter, etwa 4.0, ist die Fassung der Lizenz.
+          en: A permission for everyone that the creator adds to her work. Well-known ones are the Creative Commons licences, CC for short. The number after it, such as 4.0, is the version of the licence.
       - type: table
         caption:
           de: Zwei freie Lizenzen und was du dann tun musst
@@ -112,30 +125,33 @@ blocks:
         rows:
           - - { de: CC BY, en: CC BY }
             - {
-                de: "den Namen der Urheberin nennen, die Lizenz verlinken und sagen, ob du etwas geändert hast",
-                en: "name the creator, link to the licence and say whether you changed anything",
+                de: "die Urheberin und die Lizenz nennen (im Internet mit Link) und sagen, ob du etwas geändert hast",
+                en: "name the creator and the licence (online with a link) and say whether you changed anything",
               }
           - - { de: CC0, en: CC0 }
-            - { de: "nichts: Das Werk ist für alle frei", en: "nothing: the work is free for everyone" }
+            - {
+                de: "nichts: Das Werk ist für alle frei. Den Namen zu nennen ist trotzdem fair.",
+                en: "nothing: the work is free for everyone. Giving the name is still fair.",
+              }
       - type: definition
         term: { de: Quellenangabe, en: credit }
         explanation:
-          de: "Ein kurzer Text beim Bild: Titel, Urheberin, Quelle (wo du es gefunden hast) und Lizenz."
-          en: "A short text next to the picture: title, creator, source (where you found it) and licence."
+          de: "Ein kurzer Text beim Bild: Titel, Urheberin, Quelle (die Seite, auf der das Bild steht) und Lizenz."
+          en: "A short text next to the picture: title, creator, source (the website the picture is on) and licence."
       - type: note
         title: { de: "In der Klasse oder im Internet?", en: "In class or online?" }
         blocks:
           - type: text
             text:
               de: |
-                **In der Klasse und zum Zeigen in deiner Schule** darfst du für den Unterricht ein fremdes Bild nutzen.
-                Gib die Quelle an. Das erlaubt das Urheberrechtsgesetz in § 60a.
+                **In der Klasse und zum Zeigen in deiner Schule** darfst du für den Unterricht ein fremdes Bild nutzen,
+                mit Quellenangabe. Das erlaubt ein Gesetz, das Urheberrechtsgesetz.
 
-                **Im Internet**, auch auf der Schulhomepage, brauchst du eine Erlaubnis oder eine freie Lizenz.
-                Bist du nicht sicher, frag deine Lehrerin oder deinen Lehrer.
+                **Im Internet**, auch auf der Schulhomepage, brauchst du eine Erlaubnis oder eine freie Lizenz. Bist du
+                nicht sicher, frag deine Lehrerin oder deinen Lehrer.
               en: |
-                **In class and to show in your school** you may use someone else's picture for your lessons. Give the
-                source. German copyright law allows this in section 60a.
+                **In class, and to show at your school,** you may use someone else's picture for your lessons, with a
+                credit. A law allows this, the German Copyright Act.
 
                 **Online**, also on the school website, you need permission or a free licence. If you are not sure,
                 ask your teacher.
@@ -148,24 +164,24 @@ blocks:
       - type: text
         text:
           de: |
-            Am Ende jedes Falls fällst du ein **Urteil**: Ist das in Ordnung? Dafür hat jeder Fall eine Skala mit fünf
-            Stufen, von 1 „geht nicht“ bis 5 „ist okay“. Erst prüfst du jeden Grund: Zählt er dafür, dagegen oder gar
-            nicht? Dann wählst du die Stufe, die zu den Gründen passt. Oft passen mehrere Stufen. Hier legt das Gesetz
-            fest, was geht.
+            Am Ende jedes Falls fällst du ein **Urteil**: Ist das okay? Dafür gibt es eine Skala mit fünf Stufen, von 1
+            „geht nicht“ bis 5 „ist okay“. Erst prüfst du jeden Grund: Zählt er dafür, dagegen oder gar nicht? Ein
+            Grund kann zählen und trotzdem wenig wiegen: Ein Wunsch wiegt weniger als ein Gesetz. Dann wählst du die
+            Stufe, die zu den Gründen passt. Oft passt mehr als eine Stufe.
           en: |
-            At the end of each case you make a **judgement**: is it okay? For this, every case has a scale with five
-            steps, from 1 “not okay” to 5 “okay”. First you check each reason: does it count for, against or not at
-            all? Then you choose the step that fits the reasons. Often several steps fit. Here the law decides what is
-            allowed.
+            At the end of each case you make a **judgement**: is it okay? For this there is a scale with five steps,
+            from 1 “not okay” to 5 “okay”. First you check each reason: does it count for, against or not at all? A
+            reason can count and still weigh little: a wish weighs less than a law. Then you choose the step that fits
+            the reasons. Often more than one step fits.
       - type: vue-component
         component: Urteilsskala
         props:
           name: { de: Urteilsskala, en: judgement scale }
           stufen:
             - { de: geht nicht, en: not okay }
-            - { de: eher nicht, en: rather not }
+            - { de: eher nicht, en: mostly not }
             - { de: kommt darauf an, en: it depends }
-            - { de: eher okay, en: rather okay }
+            - { de: eher okay, en: mostly okay }
             - { de: ist okay, en: okay }
           fall:
             de: "Ein Beispiel: Selin hängt Foto 2 mit Quellenangabe an das Plakat im Klassenzimmer."
@@ -175,19 +191,27 @@ blocks:
           dafuerTitel: { de: Gründe dafür, en: Reasons for }
           dafuer:
             - { de: Die Lizenz CC BY erlaubt es., en: The CC BY licence allows it. }
-            - { de: Selin nennt den Namen und die Lizenz., en: Selin gives the name and the licence. }
+            - { de: Selin nennt Urheber und Lizenz., en: Selin names the creator and the licence. }
           dagegenTitel: { de: Gründe dagegen, en: Reasons against }
           dagegen:
             - { de: keine, en: none }
+          nichtTitel: { de: Zählt nicht, en: Does not count }
+          nicht:
+            - {
+                de: "„Mia findet Foto 2 langweilig.“ Das sagt nichts darüber, ob Selin es nutzen darf.",
+                en: "“Mia thinks photo 2 is boring.” That says nothing about whether Selin may use it.",
+              }
         nojs:
           de: |
             Die Urteilsskala hat fünf Stufen: 1 geht nicht, 2 eher nicht, 3 kommt darauf an, 4 eher okay, 5 ist okay.
             Beispiel: Selin hängt Foto 2 mit Quellenangabe an das Plakat im Klassenzimmer. Urteil: Stufe 5. Gründe
-            dafür: Die Lizenz CC BY erlaubt es. Selin nennt den Namen und die Lizenz. Gründe dagegen: keine.
+            dafür: Die Lizenz CC BY erlaubt es. Selin nennt Urheber und Lizenz. Gründe dagegen: keine. Zählt nicht:
+            „Mia findet Foto 2 langweilig.“
           en: |
-            The judgement scale has five steps: 1 not okay, 2 rather not, 3 it depends, 4 rather okay, 5 okay.
+            The judgement scale has five steps: 1 not okay, 2 mostly not, 3 it depends, 4 mostly okay, 5 okay.
             Example: Selin puts photo 2 with a credit on the poster in the classroom. Judgement: step 5. Reasons for:
-            the CC BY licence allows it. Selin gives the name and the licence. Reasons against: none.
+            the CC BY licence allows it. Selin names the creator and the licence. Reasons against: none. Does not
+            count: “Mia thinks photo 2 is boring.”
   - type: section
     id: uebung
     title:
@@ -203,48 +227,54 @@ blocks:
           - left: { de: alle Rechte vorbehalten, en: all rights reserved }
             right: { de: die Urheberin um Erlaubnis fragen, en: ask the creator for permission }
           - left: { de: CC BY 4.0, en: CC BY 4.0 }
-            right: { de: "Namen nennen, Lizenz verlinken", en: "name the creator, link to the licence" }
+            right: { de: Urheberin und Lizenz nennen, en: name the creator and the licence }
           - left: { de: CC0, en: CC0 }
             right: { de: nichts Bestimmtes, en: nothing in particular }
         distractors:
           - { de: "nichts, weil es im Internet steht", en: "nothing, because it is on the internet" }
         hint:
-          de: Lies noch einmal die Tabelle „Zwei freie Lizenzen“. Ohne freie Lizenz bleibt nur die Frage nach der Erlaubnis.
-          en: Read the table “Two free licences” again. Without a free licence, the only way is to ask for permission.
+          de: Lies noch einmal den Abschnitt „Wann du ein fremdes Bild nutzen darfst“ mit der Tabelle der zwei freien Lizenzen.
+          en: Read the section “When you may use someone else's picture” again, with the table of the two free licences.
         explanation:
-          de: Ohne freie Lizenz fragst du. CC BY verlangt Name und Lizenz. CC0 macht das Werk für alle frei. Dass ein Bild im Internet steht, erlaubt noch nichts.
-          en: Without a free licence you ask. CC BY asks for the name and the licence. CC0 makes the work free for everyone. Being on the internet does not allow anything yet.
+          de: Ohne freie Lizenz fragst du. Dass ein Bild im Internet steht, erlaubt noch nichts.
+          en: Without a free licence you ask. Being on the internet does not allow anything yet.
       - type: single-choice
         id: quellenangabe
         text:
-          de: Selin nimmt Foto 2. Welche Quellenangabe ist vollständig?
-          en: Selin takes photo 2. Which credit is complete?
+          de: Selin nimmt Foto 2 für das Plakat im Klassenzimmer. Welche Quellenangabe ist vollständig?
+          en: Selin takes photo 2 for the poster in the classroom. Which credit is complete?
         options:
           - text:
-              de: "„Steg am See“ von Karim Haddad, aus der Bildersuche, Lizenz CC BY 4.0"
-              en: "“Jetty on the lake” by Karim Haddad, from the picture search, licence CC BY 4.0"
+              {
+                de: "„Steg am See“, Karim Haddad, Fotoseite „Seebilder“, CC BY 4.0",
+                en: "“Jetty on the lake”, Karim Haddad, photo site “Seebilder”, CC BY 4.0",
+              }
             correct: true
             info:
               de: Titel, Urheber, Quelle und Lizenz sind alle da.
               en: Title, creator, source and licence are all there.
-          - text: { de: "Foto: Internet", en: "Photo: internet" }
+          - text:
+              {
+                de: "„Steg am See“, gefunden mit der Bildersuche, CC BY 4.0",
+                en: "“Jetty on the lake”, found with the picture search, CC BY 4.0",
+              }
             correct: false
             info:
-              de: Es fehlen Titel, Urheber und Lizenz. „Internet“ sagt nicht, wo genau du das Foto gefunden hast.
-              en: Title, creator and licence are missing. “Internet” does not say where exactly you found the photo.
-          - text: { de: "„Steg am See“ von Karim Haddad", en: "“Jetty on the lake” by Karim Haddad" }
+              de: Der Urheber fehlt. Die Bildersuche hat das Foto nur gefunden. Die Quelle ist die Seite, auf der es steht.
+              en: The creator is missing. The picture search only found the photo. The source is the website it is on.
+          - text: { de: "Foto aus dem Internet", en: "Photo from the internet" }
             correct: false
             info:
-              de: Es fehlen Quelle und Lizenz. CC BY verlangt, dass du die Lizenz nennst.
-              en: Source and licence are missing. CC BY asks you to name the licence.
+              de: Es fehlen Titel, Urheber und Lizenz. „Internet“ sagt nicht, auf welcher Seite das Foto steht.
+              en: Title, creator and licence are missing. “Internet” does not say which website the photo is on.
         explanation:
           de: "Eine vollständige Quellenangabe hat vier Teile: Titel, Urheber, Quelle und Lizenz."
           en: "A complete credit has four parts: title, creator, source and licence."
       - type: multiple-choice
         id: wo-darf-foto-1-hin
         text:
-          de: Frau Berg erlaubt Foto 1 für den Unterricht. Lena Vogt hat sie nicht gefragt. Wo darf das Plakat mit Foto 1 und Quellenangabe hängen? Wähle alle passenden aus.
-          en: Ms Berg allows photo 1 for the lesson. Lena Vogt has not been asked. Where may the poster with photo 1 and a credit hang? Choose all that fit.
+          de: Selin nimmt Foto 1 für den Unterricht, mit Quellenangabe. Lena Vogt hat sie nicht um Erlaubnis gebeten. Wo darf das Plakat mit Foto 1 hängen? Wähle alle passenden aus.
+          en: Selin uses photo 1 for a lesson, with a credit. She has not asked Lena Vogt for permission. Where may the poster with photo 1 hang? Choose all that fit.
         options:
           - text: { de: im Klassenzimmer der 6b, en: in the classroom of class 6b }
             correct: true
@@ -259,48 +289,51 @@ blocks:
             correct: true
             info:
               de: Zum Zeigen der Ergebnisse in deiner Schule ist das auch erlaubt.
-              en: Showing your results in your school is allowed too.
+              en: Showing your results at your school is allowed too.
           - text: { de: auf der Schulhomepage, en: on the school website }
             correct: false
             info:
               de: Die Schulhomepage ist im Internet. Dafür braucht Selin die Erlaubnis von Lena Vogt.
               en: The school website is online. For that Selin needs Lena Vogt's permission.
           - text:
-              { de: "über einen Link, den Selin mit allen teilt", en: "through a link that Selin shares with everyone" }
+              {
+                de: "in einem Video der Klasse, das alle im Netz ansehen können",
+                en: "in a class video that anyone can watch online",
+              }
             correct: false
             info:
-              de: Ein Link für alle bringt das Foto ins Internet. Das ist mehr als Unterricht.
-              en: A link for everyone puts the photo online. That is more than a lesson.
+              de: Das Video ist im Internet. Dafür braucht Selin eine Erlaubnis.
+              en: The video is on the internet. For that Selin needs permission.
         explanation:
           de: In der Klasse und zum Zeigen in deiner Schule geht es für den Unterricht. Im Internet nur mit Erlaubnis oder freier Lizenz.
-          en: In class and to show in your school it is fine for lessons. Online only with permission or a free licence.
+          en: In class and to show at your school it is fine for lessons. Online only with permission or a free licence.
       - type: true-false
-        id: cc0-name
+        id: quelle-reicht-nicht
         text:
-          de: "Bei einem Foto mit CC0 musst du um Erlaubnis fragen."
-          en: "For a photo with CC0 you have to ask for permission."
+          de: "Tom sagt: „Wenn ich die Quelle angebe, darf ich jedes Bild ins Internet stellen.“ Stimmt das?"
+          en: "Tom says: “If I give the source, I may put any picture online.” Is that true?"
         answer: false
         hint:
-          de: Lies noch einmal, was in der Tabelle bei CC0 steht.
-          en: Read again what the table says about CC0.
+          de: Denk an Foto 1. Wer entscheidet, ob es ins Internet darf?
+          en: Think of photo 1. Who decides whether it may go online?
         explanation:
-          de: Mit CC0 hat die Urheberin ihr Werk für alle freigegeben. Du musst nicht fragen. Den Namen zu nennen ist trotzdem nett.
-          en: With CC0 the creator has made her work free for everyone. You do not have to ask. Giving her name is still nice.
+          de: Die Quellenangabe sagt nur, von wem das Bild ist. Sie ersetzt keine Erlaubnis. Ins Internet darf ein fremdes Bild nur mit Erlaubnis oder freier Lizenz.
+          en: A credit only says who made the picture. It does not replace permission. Someone else's picture may only go online with permission or a free licence.
       - type: text
         text:
-          de: "Jetzt dein erstes Urteil. Die Klasse möchte das Plakat zeigen, und Foto 1 gefällt allen am besten."
-          en: "Now your first judgement. The class wants to show the poster, and everyone likes photo 1 best."
+          de: "Jetzt dein erstes Urteil. Die Klasse möchte das Plakat zeigen, und Foto 1 gefällt allen am besten. Auch hier kann mehr als eine Stufe passen."
+          en: "Now your first judgement. The class wants to show the poster, and everyone likes photo 1 best. Here too, more than one step can fit."
       - type: vue-component
         component: UrteilAufgabe
         props:
           fall:
-            de: "Fall: Selin stellt das Plakat mit Foto 1 („alle Rechte vorbehalten“) auf die Schulhomepage. Lena Vogt hat sie nicht gefragt."
-            en: "Case: Selin puts the poster with photo 1 (“all rights reserved”) on the school website. She has not asked Lena Vogt."
+            de: "Fall 1: Selin stellt das Plakat mit Foto 1 („alle Rechte vorbehalten“) auf die Schulhomepage. Sie hat Lena Vogt nicht um Erlaubnis gebeten."
+            en: "Case 1: Selin puts the poster with photo 1 (“all rights reserved”) on the school website. She has not asked Lena Vogt for permission."
           stufen:
             - { de: geht nicht, en: not okay }
-            - { de: eher nicht, en: rather not }
+            - { de: eher nicht, en: mostly not }
             - { de: kommt darauf an, en: it depends }
-            - { de: eher okay, en: rather okay }
+            - { de: eher okay, en: mostly okay }
             - { de: ist okay, en: okay }
           gruende:
             - text:
@@ -315,8 +348,8 @@ blocks:
                 en: Photo 1 is the nicest photo of the lake.
               zaehlt: dafuer
               warum:
-                de: Das ist ein echter Wunsch von Selin. Ein Wunsch ist ein Grund, auch wenn er wenig wiegt.
-                en: This is a real wish of Selin's. A wish is a reason, even if it weighs little.
+                de: Denk an die Skala oben. Ein Grund kann zählen und trotzdem wenig wiegen.
+                en: Think of the scale above. A reason can count and still weigh little.
             - text:
                 de: Im Internet machen das doch alle so.
                 en: Everyone does it like this online.
@@ -338,10 +371,10 @@ blocks:
           dagegen: { de: zählt dagegen, en: counts against }
           nicht: { de: zählt nicht, en: does not count }
           positionFalsch:
-            de: "Stufe {stufe} „{wort}“ passt nicht: Ohne Erlaubnis darf das Foto nicht ins Internet. Das Gesetz entscheidet hier, ein schönes Foto ändert daran nichts."
-            en: "Step {stufe} “{wort}” does not fit: without permission the photo must not go online. The law decides here, and a nice photo does not change that."
-          fehltGrund: { de: Ordne erst jeden Grund ein., en: First sort every reason. }
-          fehltStufe: { de: Wähle eine Stufe auf der Skala., en: Choose a step on the scale. }
+            de: "Die Gründe stimmen. Stufe {stufe} „{wort}“ passt aber nicht dazu: Ohne Erlaubnis darf das Foto nicht ins Internet. Das Gesetz wiegt hier mehr als der Wunsch nach einem schönen Foto."
+            en: "The reasons are right. But step {stufe} “{wort}” does not fit them: without permission the photo must not go online. Here the law weighs more than the wish for a nice photo."
+          fehltGrund: { de: Ordne noch jeden Grund ein., en: Sort every reason first. }
+          fehltStufe: { de: Wähle noch eine Stufe auf der Skala., en: Choose a step on the scale first. }
         examples:
           accepted:
             - { answer: { stufe: 1, einordnung: [dagegen, dafuer, nicht, dagegen] }, seed: 1 }
@@ -354,8 +387,8 @@ blocks:
           de: |
             Erklär dein Urteil jemandem neben dir: Welcher Grund wiegt am meisten?
 
-            Damit ist Fall 1 entschieden. Im nächsten Fall besucht die 6b Menschen, die bei der Arbeit Computer nutzen.
+            Als Nächstes besucht die 6b Menschen, die bei der Arbeit Computer nutzen. Das ist Fall 2.
           en: |
             Explain your judgement to someone next to you: which reason weighs most?
 
-            That settles case 1. In the next case, class 6b visits people who use computers at work.
+            Next, class 6b meets people who use computers at work. That is case 2.
