@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: Ich in der digitalen Welt
+  en: Me in the digital world
+summary:
+  de: Drei Fälle der Klasse 6b, jeder mit einem eigenen Urteil. Ein Bild aus dem Netz für ein Plakat, ein Berufsbesuch und eine KI bei den Hausaufgaben.
+  en: Three cases of class 6b, each with a judgement of your own. A picture from the internet for a poster, a visit from people at work and an AI for homework.
+pages: [bild-fuers-plakat]

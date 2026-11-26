@@ -111,7 +111,10 @@ blocks:
         rowHeaders: true
         rows:
           - - { de: CC BY, en: CC BY }
-            - { de: "den Namen der Urheberin nennen, die Lizenz verlinken und sagen, ob du etwas geändert hast", en: "name the creator, link to the licence and say whether you changed anything" }
+            - {
+                de: "den Namen der Urheberin nennen, die Lizenz verlinken und sagen, ob du etwas geändert hast",
+                en: "name the creator, link to the licence and say whether you changed anything",
+              }
           - - { de: CC0, en: CC0 }
             - { de: "nichts: Das Werk ist für alle frei", en: "nothing: the work is free for everyone" }
       - type: definition
@@ -248,7 +251,12 @@ blocks:
             info:
               de: Für den Unterricht in der Klasse ist das erlaubt.
               en: This is allowed for lessons in class.
-          - text: { de: im Flur der Schule, wo die Klassen ihre Plakate zeigen, en: in the school corridor where the classes show their posters }
+          - text:
+              {
+                de: im Flur der Schule,
+                wo die Klassen ihre Plakate zeigen,
+                en: in the school corridor where the classes show their posters,
+              }
             correct: true
             info:
               de: Zum Zeigen der Ergebnisse in deiner Schule ist das auch erlaubt.
@@ -258,7 +266,8 @@ blocks:
             info:
               de: Die Schulhomepage ist im Internet. Dafür braucht Selin die Erlaubnis von Lena Vogt.
               en: The school website is online. For that Selin needs Lena Vogt's permission.
-          - text: { de: über einen Link, den Selin mit allen teilt, en: in a public link that Selin shares with everyone }
+          - text:
+              { de: über einen Link, den Selin mit allen teilt, en: in a public link that Selin shares with everyone }
             correct: false
             info:
               de: Ein Link für alle bringt das Foto ins Internet. Das ist mehr als Unterricht.

@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+format: 2
+strand: informatik/gesellschaft
+title:
+  de: "Leben in der digitalen Welt: Fälle und Urteile"
+  en: "Life in the digital world: cases and judgements"
+intro:
+  de: >-
+    Jona, Selin und Mia, alle 11, aus der Klasse 6b erleben Fälle aus der digitalen Welt: ein Foto aus dem Netz für ein
+    Plakat, einen Berufsbesuch und eine KI, die Hausaufgaben schreiben kann. Du lernst, was du mit fremden Werken tun
+    darfst, wo Informatik in Alltag und Beruf steckt und welche Chancen und Risiken KI hat. Am Ende jedes Falls fällst
+    du dein eigenes Urteil auf der Urteilsskala.
+  en: >-
+    Jona, Selin and Mia, all aged 11, from class 6b meet cases from the digital world: a photo from the internet for a
+    poster, a visit from people at work and an AI that can write homework. You learn what you may do with other people's
+    work, where computing is part of everyday life and work, and what the opportunities and risks of AI are. At the end
+    of each case you make your own judgement on the judgement scale.
+languages: [de, en]
+chapters: [ich]
+sources:
+  - title:
+      de: "Gesetz über Urheberrecht und verwandte Schutzrechte (Urheberrechtsgesetz), §§ 2, 15, 60a"
+      en: "German Copyright Act (Urheberrechtsgesetz), sections 2, 15, 60a"
+    url: "https://www.gesetze-im-internet.de/urhg/"
+  - title:
+      de: "Creative Commons: Namensnennung 4.0 International (CC BY 4.0)"
+      en: "Creative Commons: Attribution 4.0 International (CC BY 4.0)"
+    url: "https://creativecommons.org/licenses/by/4.0/deed.de"
+  - title:
+      de: "Creative Commons: CC0 1.0 Universell"
+      en: "Creative Commons: CC0 1.0 Universal"
+    url: "https://creativecommons.org/publicdomain/zero/1.0/deed.de"
+  - title:
+      de: "Creative Commons: Empfehlungen zur Namensnennung"
+      en: "Creative Commons: Recommended practices for attribution"
+    url: "https://wiki.creativecommons.org/wiki/Recommended_practices_for_attribution"
+  - title:
+      de: "Gesellschaft für Informatik: Bildungsstandards Informatik für die Sekundarstufe I (2025), Abschnitt 5.5"
+      en: "German Informatics Society: Educational standards in computer science, lower secondary (2025), section 5.5"
+    url: "https://www.mnu.de/images/fachbereiche/Informatik/Bildungsstandards_Sek_I_2025__pdf-A_.pdf"

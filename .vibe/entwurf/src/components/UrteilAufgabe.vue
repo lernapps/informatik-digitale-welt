@@ -54,7 +54,9 @@ function senden(): void {
   const leer = stufe.value === 0 && einordnung.value.every((e) => !e);
   emit(
     "answer",
-    leer ? undefined : { stufe: stufe.value, einordnung: aufgabe.value.gruende.map((_, i) => einordnung.value[i] ?? "") },
+    leer
+      ? undefined
+      : { stufe: stufe.value, einordnung: aufgabe.value.gruende.map((_, i) => einordnung.value[i] ?? "") },
   );
 }
 
